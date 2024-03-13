@@ -1,0 +1,144 @@
+.containerLight{
+  background-color: #eeeeee;
+}
+
+.containerDark{
+  background-color: #121212;
+}
+
+.header_namesong{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header_p_sbornik{
+  font-size: 18px;
+  margin-top: 21px;
+  margin-left: 3%;
+}
+
+.menu{
+  width: 25px;
+  height: 25px;
+  margin-top: 17px;
+  margin-right: 7%;
+}
+
+.nameSongsLight{
+  color: #121212;
+  background-color: #eeeeee;
+  padding: 7px 0 7px 3%;
+  height: 50;
+  border-bottom: 1px solid lightgray;
+  font-Size: 18px;
+  font-Weight: bold;
+}
+
+.nameSongsDark{
+  color: #eeeeee;
+  background-color: #121212;
+  padding: 7px 0 7px 3%;
+  height: 50;
+  border-bottom: 1px solid lightgray;
+  font-Size: 18px;
+  font-Weight: bold;
+}
+
+.namesong_modal{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.0);
+  border-radius: 20px;
+  display: flex;
+  justify-content: end;
+}
+
+.namesong_modal--div{
+  margin-top: 45px;
+  width: 70%;
+  height: 20%;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 10px 10px 5px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.namesong_modal--div__theme{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between ;
+  align-items: center;
+  margin-bottom: 1%;
+}
+
+.modal_text{
+  color:#121212;
+  font-Size: 18px;
+  margin-left: 2%;
+}
+
+.modal_range{
+  margin:4% 1% 0 1%;
+  width: 95%;
+}
+
+
+
+
+/*TOGGLE SWITCH*/
+
+.toggleDarkBtn {
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  height: 25px;
+  margin-right: 2%;
+}
+.toggleDarkBtn input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slideBtnTg {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: gray;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.slideBtnTg:before {
+  position: absolute;
+  content: "";
+  height: 21px;
+  width: 21px;
+  left: 3px;
+  top:2px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #eee;
+}
+input:checked + .slideBtnTg {
+  background-color: #0869ca;
+}
+
+input:checked + .slideBtnTg:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+.slideBtnTg.round {
+  border-radius: 34px;
+}
+.slideBtnTg.round:before {
+  border-radius: 50%;
+}
