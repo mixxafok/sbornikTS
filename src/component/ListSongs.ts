@@ -319,4 +319,9 @@ export const ListSongs = [{
   title: 'Велики и чудны',
   name: 'VelikiIIstini'
 },
+{
+  id: 65,
+  title: 'Он шел в жару и зной',
+  name: 'OnShelVJary'
+},
 ]

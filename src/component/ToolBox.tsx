@@ -63,6 +63,7 @@ import YtromKogdaVstaet from '../songs/YtromKogdaVstaet';
 import VHasheiJisniSamoe from '../songs/VHasheiJisniSamoe';
 import PutiIstinaJizni from '../songs/PutiIstinaJizni';
 import VelikiIIstini from '../songs/VelikiIIstini';
+import OnShelVJary from '../songs/OnShelVJary';
 
 
 interface ITool{
@@ -104,6 +105,7 @@ export function Toolbox({ name, titleSong, getNameSong }:ITool) {
     NeperechestiNam: NeperechestiNam,
     NeymryINoBydy: NeymryINoBydy,
     OdnaListva: OdnaListva,
+    OnShelVJary: OnShelVJary,
     OtPogibeliSpasla: OtPogibeliSpasla,
     PoklonicCkaruCkarei: PoklonicCkaruCkarei,
     ProsipausNaZare: ProsipausNaZare,
