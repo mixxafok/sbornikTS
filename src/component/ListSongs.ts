@@ -304,4 +304,19 @@ export const ListSongs = [{
   title: 'Утром, когда встает рассвет',
   name: 'YtromKogdaVstaet'
 },
+{
+  id: 62,
+  title: 'В нашей жизни самое прекрасное',
+  name: 'VHasheiJisniSamoe'
+},
+{
+  id: 63,
+  title: 'Путь, Истина, Жизнь',
+  name: 'PutiIstinaJizni'
+},
+{
+  id: 64,
+  title: 'Велики и чудны',
+  name: 'VelikiIIstini'
+},
 ]

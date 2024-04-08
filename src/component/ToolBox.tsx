@@ -1,3 +1,4 @@
+import '../App.css'
 import BlagoEsti  from '../songs/BlagoEsti';
 import VstaetZarya from "../songs/VstaetZarya";
 import VTebeGospod  from '../songs/VTebeGospod';
@@ -59,7 +60,9 @@ import ChakaemCyabeNashIsus  from '../songs/ChakaemCyabeNashIsus';
 import TihayaNight from '../songs/TihayaNight';
 import PoklonicCkaruCkarei from '../songs/PoklonicCkaruCkarei';
 import YtromKogdaVstaet from '../songs/YtromKogdaVstaet';
-import '../App.css'
+import VHasheiJisniSamoe from '../songs/VHasheiJisniSamoe';
+import PutiIstinaJizni from '../songs/PutiIstinaJizni';
+import VelikiIIstini from '../songs/VelikiIIstini';
 
 
 interface ITool{
@@ -106,6 +109,7 @@ export function Toolbox({ name, titleSong, getNameSong }:ITool) {
     ProsipausNaZare: ProsipausNaZare,
     PustYgasloNebo: PustYgasloNebo,
     PytKGolgofe: PytKGolgofe,
+    PutiIstinaJizni: PutiIstinaJizni,
     SDetskihLet: SDetskihLet,
     SkolkoEstiZamanchivih: SkolkoEstiZamanchivih,
     SkoroDayTotPridet: SkoroDayTotPridet,
@@ -120,11 +124,13 @@ export function Toolbox({ name, titleSong, getNameSong }:ITool) {
     TiNePechalsya: TiNePechalsya,
     TiPrishelVEtotMir: TiPrishelVEtotMir,
     UnostSvetlya: UnostSvetlya,
+    VelikiIIstini: VelikiIIstini,
     VChasKogdaTryba: VChasKogdaTryba,
     VChristeOdnom: VChristeOdnom,
     VdoliPoViaDolorossa: VdoliPoViaDolorossa,
     VstaetZarya: VstaetZarya,
     VTebeGospod: VTebeGospod,
+    VHasheiJisniSamoe: VHasheiJisniSamoe,
     YaKoleniSklonu: YaKoleniSklonu,
     YtromKogdaVstaet: YtromKogdaVstaet,
     ZaLoveZaMilost: ZaLoveZaMilost,
