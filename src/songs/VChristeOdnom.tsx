@@ -3,6 +3,7 @@ import { minor, major, getTon } from '../chords/Chords';
 import Music from '../assets/musical-note.png'
 import Arrow from '../assets/icons8.png'
 import '../styles/songs.css'
+import { useNavigate } from 'react-router-dom';
 
 interface ISong{
   title: string,
@@ -10,7 +11,7 @@ interface ISong{
 }
 
 export default function VChristeOdnom({title, getNameSong}:ISong ) {
-  
+  const navigateTo = useNavigate()
   const isStyle = localStorage.getItem('SwitchValue')
   const slide:any = localStorage.getItem('SliderValues');
   const [viewAccordes, setViewAccordes] = useState(true);
@@ -21,7 +22,7 @@ export default function VChristeOdnom({title, getNameSong}:ISong ) {
 <div>
  
              <header className='header_song' >
-        <div className='header_song-arrow' onClick={()=>getNameSong('NameSongs')}>
+        <div className='header_song-arrow' onClick={()=>{getNameSong('NameSongs'); navigateTo('/')}}>
           <img  src={Arrow} width='100%' />
         </div>
         <p className='header_song-title' >{title}</p>
@@ -46,7 +47,7 @@ export default function VChristeOdnom({title, getNameSong}:ISong ) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[11+start]}                      {major[6+start]}              {major[11+start]}      {major[1+start]}       <br/></p>               
                   Он - Камень мой, скала и песнь – <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[6+start]}                   {major[11+start]}                     {major[1+start]}             {major[6+start]}<br/></p>
-                  надежный  спутник в страшный шторм<br/><br/>
+                  надежный  спутник в страшный шторм<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[11+start]}   {minor[3+start]}       {major[1+start]} <br/></p>
                   Как высока любовь Его. <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[6+start]}                {major[11+start]}      {minor[3+start]}     {major[1+start]}<br/></p>

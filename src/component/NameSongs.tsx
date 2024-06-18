@@ -2,6 +2,7 @@ import React, {useState,useEffect} from 'react';
 import { ListSongs } from './ListSongs';
 import menu from '../assets/menu.png'
 import '../styles/nameSongs.css'
+import { useNavigate } from 'react-router-dom';
 
 
 interface IStorage{
@@ -16,13 +17,13 @@ interface INameSong{
 
 export default function NameSongs({getNameSong,getTitleSong}:INameSong) {
 
+  const navigateTo = useNavigate()
   const [ modalOpen , setModalOpen ] = useState (false);
 
   const [storage, setStorage] = useState<IStorage>({
     sliderValue: localStorage.getItem('SliderValues'),
     switchValue: localStorage.getItem('SwitchValue') 
   })
-
   // const toggleSwitch = () =>{
   //   setStorage({...storage, switchValue: !storage.switchValue});
   //   SaveSwitch(!storage.switchValue);
@@ -85,23 +86,40 @@ export default function NameSongs({getNameSong,getTitleSong}:INameSong) {
    }
   }
 
-  useEffect( ()=>{
-    GetSlider();
-    GetSwitch();
-  },[])
+ const [maplist,setMaplist] = useState(ListSongs)
 
-const songss = ListSongs.sort((a,b)=>{return a.title.localeCompare(b.title)}).map((item, index) =>{
+const songss = maplist.sort((a,b)=>{return a.title.localeCompare(b.title)}).map((item, index) =>{
   return (
     <div className={storage.switchValue ? 'nameSongsDark' : 'nameSongsLight'} key={item.id} onClick={()=>SongLoad1(item.name,item.title, index)} >
       {index + 1 + '.'} {item.title}
     </div>
   )
 })
+    
+// localStorage.setItem('song', JSON.stringify(maplist))
+
+  useEffect( ()=>{
+    GetSlider();
+    GetSwitch();
+
+  },[])
+
+ 
+
+  function funcSearch(str:string){
+    if(str != '')
+      setMaplist(maplist.filter((item)=>item.title.toLowerCase().includes(str.toLowerCase())))
+    else
+      setMaplist(ListSongs)
+  }
 
   const SongLoad1 = (name: string,tit: string, ind: number) => {
+    navigateTo('/BlagoEsti')
     getTitleSong(ind + 1 + "." + " " + tit)
     getNameSong(name)
   }
+
+  
 
   return (
     <div className={storage.switchValue ? 'containerDark' : 'containerLight'}>
@@ -145,6 +163,9 @@ const songss = ListSongs.sort((a,b)=>{return a.title.localeCompare(b.title)}).ma
        : null}
 
       <main>
+        <div className='div_search'>
+          <input className='search' type='search' onChange={(e)=>funcSearch(e.target.value)}  placeholder='Поиск' />
+        </div>
         {songss}
       </main>
 

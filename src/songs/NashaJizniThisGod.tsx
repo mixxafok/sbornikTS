@@ -3,6 +3,7 @@ import { minor, major, getTon } from '../chords/Chords';
 import Music from '../assets/musical-note.png'
 import Arrow from '../assets/icons8.png'
 import '../styles/songs.css'
+import { useNavigate } from 'react-router-dom';
 
 interface ISong{
   title: string,
@@ -11,7 +12,7 @@ interface ISong{
 
 
 export default function NashaJizniThisGod({title, getNameSong}:ISong) {
-
+  const navigateTo = useNavigate()
   const isStyle = localStorage.getItem('SwitchValue')
   const slide:any = localStorage.getItem('SliderValues');
   const [viewAccordes, setViewAccordes] = useState(true);
@@ -23,7 +24,7 @@ export default function NashaJizniThisGod({title, getNameSong}:ISong) {
 <div>
  
              <header className='header_song' >
-        <div className='header_song-arrow' onClick={()=>getNameSong('NameSongs')}>
+        <div className='header_song-arrow' onClick={()=>{getNameSong('NameSongs'); navigateTo('/')}}>
           <img  src={Arrow} width='100%' />
         </div>
         <p className='header_song-title' >{title}</p>

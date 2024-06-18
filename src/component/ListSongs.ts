@@ -317,11 +317,51 @@ export const ListSongs = [{
 {
   id: 64,
   title: 'Велики и чудны',
-  name: 'VelikiIIstini'
+  name: 'VelikiIChudni'
 },
 {
   id: 65,
   title: 'Он шел в жару и зной',
   name: 'OnShelVJary'
+},
+{
+  id: 66,
+  title: 'Небесный дом оставил',
+  name: 'NebesniiDomOstavil'
+},
+{
+  id: 67,
+  title: 'День угас',
+  name: 'DayYgas'
+},
+{
+  id: 68,
+  title: 'Земля застыла в ожиданьи',
+  name: 'ZemlyaZastilaVOjidanii'
+},
+{
+  id: 69,
+  title: 'Я искал Тебя, Боже',
+  name: 'YaIskalTebaBoje'
+},
+{
+  id: 70,
+  title: 'Когда Христос меня простил',
+  name: 'KogdaHristosMenyaProstil'
+},
+{
+  id: 71,
+  title: 'Вместе мы с вами верили',
+  name: 'VmesteMiSVamiVerili'
+},
+{
+  id: 72,
+  title: 'Жизнь борьба и в душе и в духе',
+  name: 'JiznyBorbaIVDushe'
+},
+{
+  id: 73,
+  title: 'Пока огонь любви чудесной',
+  name: 'PokaOgoniLybviChydesnoi'
 },
 ]
