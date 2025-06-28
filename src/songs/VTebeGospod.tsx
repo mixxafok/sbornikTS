@@ -42,43 +42,43 @@ export default function VTebeGospod({title, getNameSong}:ISong) {
  <main className={isStyle === 'true' ? 'main_song songDark' : 'main_song'} style={{fontSize: `${JSON.parse(slide) }px`}}>
                   <p className='main_song-couplet'  >Куплет 1: </p>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[9+start]}<br/></p>
-                  В тебе, Господь вся жизнь моя <br/>
+                  В Тебе, Господь вся жизнь моя, <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[11+start]}   {major[9+start]}<br/></p>
-                  Поэтому я радуюсь <br/>
+                  Поэтому я радуюсь. <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[2+start]}   {major[9+start]}<br/></p>
                   С голгофы чистая струя <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[4+start]}7   {major[9+start]}<br/></p>
-                  Живит мой Дух отрадою <br/><br/>
+                  Живит мой Дух отрадою. <br/><br/>
 
                   <p className='main_song-couplet' >Припев: </p>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[6+start]}<br/></p>
-                  И я пою Христу пою <br/>
+                  И я пою, Христу пою, <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[11+start]} <br/></p>
-                  За нас отдал Он жизнь свою <br/>
+                  За нас отдал Он жизнь Свою. <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[4+start]}<br/></p>
                   Шатёр любви, любви святой <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[9+start]}   {minor[6+start]} <br/></p>
-                  Раздвинул Он над всей землёй <br/>
+                  Раздвинул Он над всей землёй, <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[6+start]}<br/></p>
-                  И мёдам каплют облака <br/>
+                  И мёдом каплют облака, <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[11+start]}<br/></p>
-                  Что держит их Его рука <br/>
+                  Что держит их Его рука, <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[4+start]}<br/></p>
-                  И солнца свет лучистых глас <br/>
+                  И солнца свет лучистых глаз, <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[4+start]}   {major[9+start]}<br/></p>
-                  Он любит как детей всех нас <br/><br/>
+                  Он любит, как детей, всех нас. <br/><br/>
 
                   <p className='main_song-couplet' >Куплет 2: </p>
-                  Христос однажды целый мир <br/>
-                  Носил на любящих руках <br/>
-                  От вечной смерти искупил <br/>
-                  Христос открыл нам небеса <br/><br/>
+                  Христос однажды целый мир, <br/>
+                  Носил на любящих руках, <br/>
+                  От вечной смерти искупил, <br/>
+                  Христос открыл нам небеса. <br/><br/>
 
                   <p className='main_song-couplet' >Куплет 3: </p>
                   Перед Творцом ничтожный я <br/>
-                  В грехах, повинен смерти был <br/>
-                  Но кров невинная Христа <br/>
-                  Дала мне радость, жизнь и мир<br/><br/>
+                  В грехах, повинен смерти был, <br/>
+                  Но кровь невинная Христа <br/>
+                  Дала мне радость, жизнь и мир.<br/><br/>
 </main> 
 
            

@@ -39,7 +39,7 @@ export default function PutiIstinaJizni({title, getNameSong}:ISong) {
         </div>
 
         <main className={isStyle === 'true' ? 'main_song songDark' : 'main_song'} style={{fontSize: `${JSON.parse(slide) }px`}}>
-          <p className='main_song-couplet' >Припев 1-4: </p>
+          <p className='main_song-couplet' >Припев 1-3: </p>
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>
             {minor[1+start]}     {major[1+start]}7   <br/>
           </p>
@@ -86,7 +86,7 @@ export default function PutiIstinaJizni({title, getNameSong}:ISong) {
           Кто себя бережёт, тот себе потерял, <br/>              
           Следуйте Мне. <br/><br/>
 
-          <p className='main_song-couplet' >Припев 5: </p>
+          <p className='main_song-couplet' >Припев 4: </p>
           В путь, истину, жизнь, <br/>
           Так, как слово Твоё говорит <br/>
           Так, как Имя Твоё говорит,<br/>
@@ -97,7 +97,7 @@ export default function PutiIstinaJizni({title, getNameSong}:ISong) {
           Лишь от Духа и истины Царство Моё, <br/>              
           Царство Моё. <br/><br/>
 
-          <p className='main_song-couplet' >Припев 6: </p>
+          <p className='main_song-couplet' >Припев 5: </p>
           Путь, Истина, Жизнь <br/>
           Всё вмещается в Имя Твоё<br/>
           Всё вмещается в Слово Твоё,<br/>
@@ -108,7 +108,7 @@ export default function PutiIstinaJizni({title, getNameSong}:ISong) {
           И к Отцу поведу вас дорогой прямой, <br/>              
           Вместе пойдём. <br/><br/>
 
-          <p className='main_song-couplet' >Припев: </p>
+          <p className='main_song-couplet' >Припев 6: </p>
           В путь, истину, жизнь,<br/>
           Так, как слово Твоё говорит<br/>
           Так, как Имя Твоё говорит,<br/>

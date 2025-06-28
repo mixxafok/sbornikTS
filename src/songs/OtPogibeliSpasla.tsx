@@ -43,7 +43,7 @@ export default function OtPogibeliSpasla({title, getNameSong}:ISong ) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[6+start]}                           {minor[11+start]}<br/></p>
                   От погибели спасла меня Милость Божия,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[4+start]}  {major[1+start]}                         {minor[6+start]}<br/></p>
-                  В дне отчаянья нашла меня Милость Божия.<br/>
+                  В рве отчаянья нашла меня Милость Божия.<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[4+start]}                                        {major[6+start]}<br/></p>
                   То, что я ещё живу, то, что Господу служу,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[11+start]}     {major[1+start]}                              {minor[6+start]}<br/></p>
@@ -56,20 +56,20 @@ export default function OtPogibeliSpasla({title, getNameSong}:ISong ) {
                   Это милость Божия, это милость Божия.<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 3: </p>
-                  Вновь и вновь благодарю эту милость Божию<br/>
+                  Вновь и вновь благодарю эту милость Божию,<br/>
                   И желанием горю славить милость Божию,<br/>
                   Эту бездну доброты, эту силу чистоты,<br/>
                   Эту милость Божию, эту милость Божию.<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 4: </p>
                   Всё однажды здесь пройдёт, даже милость Божия,<br/>
-                  От земли Бог заберёт  Свою милость Божию.<br/>
+                  От земли Бог заберёт Свою милость Божию.<br/>
                   Там где место для святых будет вечно им светить<br/>
                   Это милость Божия, это милость Божия.<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 5: </p>
                   От погибели спасла меня Милость Божия,<br/>
-                  В день отчаянья нашла меня Милость Божия.<br/>
+                  В рве отчаянья нашла меня Милость Божия.<br/>
                   То, что я ещё живу, то, что Господу служу,<br/>
                   Это милость Божия, Это милость Божия.<br/><br/>
 

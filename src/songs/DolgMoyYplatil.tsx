@@ -40,27 +40,27 @@ export default function DolgMoyYplatil({title, getNameSong}:ISong) {
           <main className={isStyle === 'true' ? 'main_song songDark' : 'main_song'} style={{fontSize: `${JSON.parse(slide) }px`}}>
                   <p className='main_song-couplet'  >Куплет 1: </p>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[11+start]}       {major[6+start]}       {major[11+start]}<br/></p>
-                  Я слышу со Креста, Спаситель говорит: <br/>
+                  Спаситель говорит: "Ты слаб в земной борьбе, <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[11+start]}       {major[4+start]}    {major[11+start]}       {major[6+start]}       {major[11+start]}<br/></p>
-                  “Ты грешен за тебя, Я ко Кресту прибит"<br/><br/>
+                  Но мужайся и молись, Всё что нужно дам тебе".<br/><br/>
 
                   <p className='main_song-couplet' >Припев: </p>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[11+start]}       {major[4+start]}    {major[11+start]}       {major[6+start]}<br/></p>
                   Долг мой уплатил, любящий Иисус. <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[11+start]}       {major[4+start]}    {major[11+start]}       {major[6+start]}       {major[11+start]}<br/></p>
-                  Своей кровью искупил, я только Им хвалюсь.<br/><br/>
+                  Грех мой кровью искупил, лишь Им всегда хвалюсь.<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 2: </p>
-                  Господь, Tвоя рука, Всё, может совершить.<br/>
-                  Сокрушить, ярмо греха, и все раны, исцелить.<br/><br/>
+                  Господь, Tвоя рука, всё может совершить.<br/>
+                  Сокрушить ярмо греха, и все раны исцелить.<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 3: </p>
-                  Я не достоин жить, с Христом на высоте.<br/>
-                  Но мой грех, с меня oмыт, Кровью Aгнца, нa Кресте.<br/><br/>
+                  Негоден я, чтоб жить с Тобой на высоте,<br/>
+                  Но мой грех с меня oмыт, кровью Aгнца нa Кресте.<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 4: </p>
-                  Когда жe, в оный день, перед Творцом явлюсь.<br/>
-                  Буду повторять везде, умер за меня, Иисус.<br/><br/>
+                  Когда жe в оный день я перед Ним явлюсь,<br/>
+                  Буду повторять везде: "Умер за меня Иисус!<br/><br/>
         </main> 
      </div>
    );

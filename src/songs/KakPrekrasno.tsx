@@ -41,11 +41,11 @@ export default function KakPrekrasno({title, getNameSong}:ISong ) {
  <main className={isStyle === 'true' ? 'main_song songDark' : 'main_song'} style={{fontSize: `${JSON.parse(slide) }px`}}>
                   <p className='main_song-couplet'  >Куплет 1: </p>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}<br/></p>
-                  Как прекрасно все то, что Твое,<br/>
+                  Как прекрасно все то, что Твоё,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[6+start]}<br/></p>
                   Мне повсюду Твой слышится голос.<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[11+start]}7 <br/></p>
-                  Ветром в листьях звенит и поет,  <br/>
+                  Ветром в листьях звенит и поёт,  <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]} <br/></p>
                   В сердце шепчет, как зреющий колос.  <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}<br/></p>
@@ -74,18 +74,18 @@ export default function KakPrekrasno({title, getNameSong}:ISong ) {
                   И в цветущих на поле ромашках. <br/>
                   Это Ты нам даруешь друзей, <br/>
                   Это Ты научил нас трудиться. <br/>
-                  Потому я хочу все сильней <br/>
-                  И все чаще, усердней молиться.<br/><br/>
+                  Потому я хочу всё сильней <br/>
+                  И всё чаще, усердней молиться.<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 3: </p>
                   Это Ты меня петь научил, <br/>
                   Потому моя песнь не смолкает. <br/>
                   Это Ты в меня свет Твой пролил. <br/>
                   Он и в вечности не угасает. <br/>
-                  Как прекрасно все то, что Твое, <br/>
+                  Как прекрасно всё то, что Твое, <br/>
                   Пред величьем Твоим я немею. <br/>
-                  Это Ты мне. Спаситель, даешь <br/>
-                  Все то доброе, что я имею.<br/><br/>
+                  Это Ты мне, Спаситель, даешь <br/>
+                  Всё то доброе, что я имею.<br/><br/>
         </main> 
      </div>
    );

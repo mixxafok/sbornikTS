@@ -63,8 +63,8 @@ export default function ZKojnimDnemDarajei({title, getNameSong}:ISong) {
                   <p className='main_song-couplet' >Куплет 2: </p>
                   На зямлі я чужы, на зямлі я не свой.<br/>
                   Дружа мой, я i ты тут у гасцях.<br/>
-                  Цi ўлетку ці ўвосень, а можа зімой,<br/>
-                  Я закончу жыццевы свой шлях. <br/><br/>
+                  Цi ўлетку, ці ўвосень, а можа зімой,<br/>
+                  Я закончу жыццёвы свой шлях. <br/><br/>
 </main> 
 
            

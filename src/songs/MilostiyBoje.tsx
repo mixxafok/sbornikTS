@@ -44,7 +44,7 @@ export default function MilostiyBoje({title, getNameSong}:ISong) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >  {minor[11+start]}         {major[6+start]}                                   {minor[11+start]}       <br/></p>
                   Милостью, Боже, Твоею живу,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >  {minor[4+start]}             {minor[11+start]}     {major[6+start]}       {minor[11+start]}<br/></p>
-                  Только Твоей, Только Твоей, <br/>
+                  Только Твоей, только Твоей, <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >               {minor[11+start]}       {major[6+start]}         {major[7+start]}  <br/></p>               
                   И от Тебя никуда не уйду. <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >  {minor[4+start]}             {major[6+start]}             {minor[11+start]}  <br/></p>
@@ -56,7 +56,7 @@ export default function MilostiyBoje({title, getNameSong}:ISong) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >  {major[6+start]}                                  {minor[11+start]}          {major[6+start]}<br/></p>
                   Ночью и днем окружает меня.<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >  {minor[11+start]}                        {minor[4+start]}      <br/></p>
-                  Если исчезнет все на земле,<br/>
+                  Если исчезнет всё на земле,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >  {major[6+start]}                              {minor[4+start]}   {major[6+start]}                {minor[11+start]}<br/></p>
                   Милость Твоя будет вечной ко мне.<br/><br/>
 
@@ -68,7 +68,7 @@ export default function MilostiyBoje({title, getNameSong}:ISong) {
 
                   <p className='main_song-couplet' >Куплет 3: </p>
                   Господи, милость Твоя велика,<br/>
-                  И глубока и широка, <br/>
+                  И глубока, и широка, <br/>
                   Выше, чем дальних небес облака,<br/>
                   Непостижима она!<br/><br/>
         </main> 

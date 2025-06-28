@@ -44,26 +44,26 @@ export default function SDetskihLet({title, getNameSong}:ISong) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >      {minor[6+start]}                                        {major[2+start]}       <br/></p>
                   С детских лет стремились к небесам твои мечты,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >      {major[4+start]}                                          {major[9+start]}              {major[1+start]}   <br/></p>
-                  Про любовь Иисуса с колыбели знаешь ты <br/>
+                  Про любовь Иисуса с колыбели знаешь ты. <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >      {minor[6+start]}                                     {major[2+start]}       <br/></p>               
                   Но совсем недавно стал ты чаще замечать,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >      {major[4+start]}                                   {major[9+start]}                     {major[1+start]} <br/></p>
-                  Как тебе не просто против мира устоять<br/><br/>
+                  Как тебе не просто против мира устоять.<br/><br/>
 
                   <p className='main_song-couplet' >Припев: </p>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >      {minor[6+start]}                                                {minor[11+start]}<br/></p>
-                  Соблазнам так легко поддатся и свернуть с пути<br/>
+                  Соблазнам так легко поддатся и свернуть с пути,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >         {major[4+start]}                                                {major[9+start]}<br/></p>
-                  Но без Бога невозможно жизнь найти<br/>
+                  Но без Бога невозможно жизнь найти.<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >      {major[2+start]}                                {minor[11+start]}<br/></p>
-                  Мир влечет людей красотой огней<br/>
+                  Мир влечет людей красотой огней,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >                                     {major[1+start]}                               {minor[6+start]}<br/></p>
-                  Только с каждым днем он ранит все больней<br/><br/>
+                  Только с каждым днем он ранит все больней.<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 2: </p>
-                  Перед тем как выбрать путь которым ты пойдешь <br/>
+                  Перед тем, как выбрать путь, которым ты пойдешь, <br/>
                   Хорошо подумай: что без Бога ты найдешь?<br/>
-                  Вспомни сколько раз тебе Он руку подавал<br/>
+                  Вспомни сколько раз тебе Он руку подавал,<br/>
                   Как Ему быть верным ты всем сердцем обещал... <br/><br/>
 </main> 
 

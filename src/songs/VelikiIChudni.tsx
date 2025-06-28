@@ -43,9 +43,9 @@ export default function VelikiIChudni({title, getNameSong}:ISong) {
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>{minor[8+start]}     {minor[1+start]}      {minor[3+start]}     {minor[8+start]}   <br/></p>
           Велики и чудны дела Твои,  <br/>
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>{major[4+start]}      {major[11+start]}       {major[6+start]}<br/></p>
-          Господи Боже Вседержитель. <br/>
+          Господи Боже, Вседержитель. <br/>
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>{minor[8+start]}     {minor[1+start]}      {minor[3+start]}     {minor[8+start]} <br/></p>
-          Праведны и истинны пути Твои<br/>
+          Праведны и истинны пути Твои,<br/>
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>{major[4+start]}     {major[6+start]}     {minor[8+start]}<br/></p>
           Царь Святый. <br/><br/>
           

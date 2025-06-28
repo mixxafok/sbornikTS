@@ -43,46 +43,46 @@ export default function OdnaListva({title, getNameSong}:ISong) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}         {minor[6+start]}          {minor[1+start]}<br/></p>
                   Одна листва, одна листва<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[6+start]}       {major[8+start]}          {minor[1+start]}<br/></p>
-                  От всех твоих трудов.<br/>
+                  Ты не принес плода.<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[6+start]}                 {major[11+start]}<br/></p>
-                  Где плод посева твоего?<br/>
+                  // Где плод посева твоего?<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[4+start]}                {minor[1+start]}<br/></p>
                   Спаситель ждет его давно.<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[6+start]}<br/></p>
-                  Ты не принес плода,<br/>
+                  Бесплодна жизнь твоя,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[8+start]}                {minor[6+start]}<br/></p>
-                  Одна листва…<br/><br/>
+                  Одна листва...//<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 2: </p>
                   Одна листва, одна листва.<br/>
-                  Как любишь ты Христа?<br/>
-                  Тебя до смерти возлюбил,<br/>
+                  Ты огорчил Христа?<br/>
+                  // Тебя до смерти возлюбил,<br/>
                   Чем ты Иисусу заплатил?<br/>
                   Ты не принес плода,<br/>
-                  Одна листва…<br/><br/>
+                  Одна листва...//<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 3: </p>
                   Одна листва, одна листва,<br/>
                   Ты не принес плода.<br/>
-                  Каким предстанешь пред судом<br/>
+                  // Каким предстанешь пред судом<br/>
                   И что ответишь пред Христом?<br/>
-                  Погибнешь навсегда,<br/>
-                  Одна листва.<br/><br/>
+                  Ты не принес плода,<br/>
+                  Одна листва...//<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 4: </p>
                   Одна листва, одна листва,<br/>
                   И лишь одни слова.<br/>
-                  Господь грядет, а ты все спишь,<br/>
+                  // Господь грядет, а ты все спишь,<br/>
                   “Еще успею”, – говоришь.<br/>
                   Господь зовет:<br/>
-                  “Вставай! Я жду плода”.<br/><br/>
+                  “Вставай! Я жду плода”. //<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 5: </p>
                   Одна листва, одна листва,<br/>
                   Но можно жить с плодом.<br/>
-                  Я буду жить лишь для Христа,<br/>
+                  // Я буду жить лишь для Христа,<br/>
                   Я буду радостным всегда.<br/>
-                  Тогда на небеса приду с плодом.<br/><br/>
+                  Тогда на небеса приду с плодом. //<br/><br/>
 
 </main> 
 

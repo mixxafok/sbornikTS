@@ -55,8 +55,8 @@ export default function SkrouMenya({title, getNameSong}:ISong ) {
                   Я не боюсь, мой Бог со мной.<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 2: </p>
-                  Найду покой, В Тебе Христос,<br/>
-                  Верю я, в могущество Твоё!<br/><br/>
+                  Найду покой в Тебе, Христос,<br/>
+                  Верю я в могущество Твоё!<br/><br/>
 
 </main> 
 

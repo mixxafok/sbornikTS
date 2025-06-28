@@ -110,7 +110,7 @@ export default function DayYgas({title, getNameSong}:ISong) {
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>{major[11+start]}     {major[7+start]} <br/></p>
           Правда утвердилась.<br/>
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>{major[2+start]}     {major[7+start]}  {major[1+start]} <br/></p>          
-          Песнь летит и в ширь и в даль.<br/><br/>
+          Песнь летит и в ширь, и в даль.<br/><br/>
 
 
           <p className='main_song-couplet' >Куплет 3: </p>

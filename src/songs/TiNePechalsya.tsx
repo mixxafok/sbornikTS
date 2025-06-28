@@ -43,11 +43,11 @@ export default function TiNePechalsya({title, getNameSong}:ISong) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[8+start]}     {major[4+start]}     {major[6+start]}     {major[11+start]}<br/></p>
                   Я постигаю сквозь слезы и боль<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[4+start]}     {minor[1+start]}     {major[3+start]}7     {minor[8+start]}<br/></p>
-                  Радость встречи и горечь разлуки.<br/>
+                  Радости встречи и горечь разлуки.<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[8+start]}     {major[4+start]}     {major[6+start]}     {major[11+start]}<br/></p>
-                  Пью эту чашу, где сладость и соль,<br/>
+                  Пью эту чашу, где сладость и соль<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[4+start]}     {minor[1+start]}     {major[3+start]}7     {minor[8+start]}<br/></p>
-                  Перемешались надежда и муки.<br/><br/>
+                  Перемешались с надеждой и мукой.<br/><br/>
 
                   <p className='main_song-couplet' >Припев: </p>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[8+start]}     {minor[1+start]}     {major[6+start]}     {major[11+start]}<br/></p>

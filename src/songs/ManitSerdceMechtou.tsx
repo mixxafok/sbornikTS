@@ -61,14 +61,14 @@ export default function ManitSerdceMechtou({title, getNameSong}:ISong) {
                   Нас зовут христиане.<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 2: </p>
-                  Иисус стал нам другом,<br/>
+                  Иисус стал нам Другом,<br/>
                   Мы на деле узнали,<br/>
                   Он врачует недуги,<br/>
                   Удаляет печали. <br/><br/>
 
                   <p className='main_song-couplet' >Куплет 3: </p>
                   Он дарует прощенье,<br/>
-                  Жизнь и радость без меры<br/>
+                  Мир и радость без меры<br/>
                   И второе рожденье,<br/>
                   Только искренно веруй. <br/><br/>
         </main> 

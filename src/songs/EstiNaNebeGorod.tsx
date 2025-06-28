@@ -43,7 +43,7 @@ export default function EstiNaNebeGorod({title, getNameSong}:ISong ) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}       {minor[6+start]}    {major[8+start]}       {minor[1+start]} <br/></p>
                   Есть на небе город, чудный город света,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[9+start]}    {minor[11+start]}       {minor[4+start]} <br/></p>
-                  Там нужды болезни и печали нету.<br/>
+                  Там нужды, болезни и печали нету.<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}       {minor[6+start]}   {minor[11+start]}       {minor[4+start]} <br/></p>
                   Там Живут святые, там играют гусли, <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}        {minor[8+start]} <br/></p>
@@ -69,7 +69,7 @@ export default function EstiNaNebeGorod({title, getNameSong}:ISong ) {
                   Братья мои, сёстры, там мы будем вместе<br/>
                   Воспевать Иисусу радостные песни.<br/>
                   Так давайте ж на земле вместе славить Бога,<br/>
-                  Чтобы стала нам светлей в небеса дорога.<br/><br/>
+                  Чтобы светлее стала нам в небеса дорога.<br/><br/>
         </main> 
      </div>
    );

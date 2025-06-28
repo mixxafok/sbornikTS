@@ -59,7 +59,7 @@ export default function SkolkoEstiZamanchivih({title, getNameSong}:ISong) {
                   Впереди меня Ты Сам идешь<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >   {major[4+start]}<br/></p>
                   И меня в обители ведешь.<br/>
-                  Сквозь туман сквозь жизни угаган<br/>
+                  Сквозь туман, сквозь жизни ураган,<br/>
                   За Тобой иду я в Ханаан,<br/>
                   В жизни Ты меня, мой Бог, храни,<br/>
                   Силу дай вперед всегда идти.<br/><br/>

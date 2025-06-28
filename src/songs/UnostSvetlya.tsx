@@ -44,7 +44,7 @@ export default function UnostSvetlya({title, getNameSong}:ISong ) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[3+start]}      {major[6+start]}<br/></p>
                  Юность светлая, весна ранняя –<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[8+start]}      {major[1+start]}      {major[6+start]}<br/></p>
-                  Мы ее Творцу принесем,<br/>
+                  Мы её Творцу принесем,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[11+start]}      {minor[8+start]}<br/></p>
                   Молодые мы в золотые дни<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[3+start]}      {major[10+start]}      {minor[3+start]}<br/></p>

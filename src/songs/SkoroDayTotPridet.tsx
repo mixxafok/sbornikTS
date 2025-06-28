@@ -41,9 +41,9 @@ export default function SkoroDayTotPridet({title, getNameSong}:ISong ) {
  <main className={isStyle === 'true' ? 'main_song songDark' : 'main_song'} style={{fontSize: `${JSON.parse(slide) }px`}}>
                   <p className='main_song-couplet'  >Куплет 1: </p>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[11+start]}          {major[3+start]}<br/></p>
-                  Скоро день тот придет, и не будет всех забот,<br/>
+                  Скоро день тот придет, где не будет всех забот,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}         {major[6+start]}         {major[11+start]}         {major[11+start]}7<br/></p>
-                  Ни печали невзгод, ни нужды, ни тревог. <br/>
+                  Ни печали, ни невзгод, ни нужды и ни тревог. <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[4+start]}         {minor[4+start]}         {major[11+start]}         {minor[8+start]}<br/></p>
                   Мир царит в стране святой, тьмы не будет никакой. <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}         {major[6+start]}         {major[11+start]}         {major[11+start]}7<br/></p>
@@ -53,23 +53,23 @@ export default function SkoroDayTotPridet({title, getNameSong}:ISong ) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[4+start]}         {minor[4+start]}         {major[11+start]}         {major[8+start]}<br/></p>
                   Что за день будет там, когда встречу я Христа! <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[1+start]}         {major[6+start]}         {major[11+start]}         {major[11+start]}7<br/></p>
-                  Он возьмет меня с Собой в край небесный, не земной. <br/>
+                  Он возьмет меня с Собой в край небесный, неземной. <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[4+start]}         {minor[4+start]}         {major[11+start]}         {minor[8+start]}<br/></p>
                   Руку даст Он мне Свою, и я с Ним туда пойду. <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}         {major[6+start]}         {major[11+start]}<br/></p>
                   Что за день, радостный день будет там! <br/><br/>
 
                   <p className='main_song-couplet' >Куплет 2: </p>
-                  Там не будет забот, Мир и радость не пройдет. <br/>
-                  Ни болезнь, ни слеза, Радость будет без конца. <br/>
-                  Буду вечно я тогда Прославлять Царя Христа. <br/>
-                  Что за день, радостный день Будет там!<br/><br/>
+                  Там не будет забот, мир и радость не пройдет. <br/>
+                  Нет болезни там следа, радость будет без конца. <br/>
+                  Буду вечно я тогда прославлять Царя Христа. <br/>
+                  Что за день, радостный день будет там!<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 3: </p>
-                  Скоро день тот придет, и не будет всех забот, <br/>
-                  Ни печали невзгод, Ни нужды, ни тревог. <br/>
-                  Мир царит в стране святой, Тьмы не будет никакой. <br/>
-                  Что за день, радостный день Будет там!<br/><br/>
+                  Скоро день тот придет, где не будет всех забот, <br/>
+                  Ни печали, ни невзгод, ни нужды и ни тревог. <br/>
+                  Мир царит в стране святой, тьмы не будет никакой. <br/>
+                  Что за день, радостный день будет там!<br/><br/>
 
 </main> 
 

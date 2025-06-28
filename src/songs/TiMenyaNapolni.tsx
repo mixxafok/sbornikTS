@@ -59,9 +59,9 @@ export default function TiMenyaNapolni({title, getNameSong}:ISong ) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[3+start]}    {major[8+start]}<br/></p>
                   По сравнению с Тобой,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[8+start]}    {major[1+start]}<br/></p>
-                  Ты светящий , яркий солнца свет<br/>
+                  Ты светящий, яркий солнца свет<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[3+start]}    {major[8+start]}<br/></p>
-                  Можешь скрыть своей рукой,<br/>
+                  Можешь скрыть Своей рукой,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[5+start]}    {major[1+start]}<br/></p>
                   И сиянье неба и дождя <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[3+start]}    {major[8+start]}<br/></p>
@@ -72,8 +72,8 @@ export default function TiMenyaNapolni({title, getNameSong}:ISong ) {
                   Нет подобного Тебе!<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 2: </p>
-                  Я нашёл свободу став Твоим рабом,<br/>
-                  Я обрёл спасенье став Твоим детём<br/>
+                  Я нашёл свободу, став Твоим рабом,<br/>
+                  Я обрёл спасенье, став Твоим дитём.<br/>
                   Мои сердце и любовь я кладу к ногам Твоим,<br/>
                   Только Ты достоин славы и хвалы!<br/>
                   Твоё Имя велико по всей земле,<br/>

@@ -45,15 +45,15 @@ export default function PytKGolgofe({title, getNameSong}:ISong ) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[6+start]}       {major[8+start]}         {minor[1+start]}<br/></p>
                   Сколько мук и страданий во взоре…<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}                   {major[4+start]}<br/></p>
-                  Иисус дорогой умирал на кресте,<br/>
+                  Иисус дорогой умирал на кресте;<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[6+start]}         {major[8+start]}            {minor[1+start]}<br/></p>
-                  Принял тяжкие муки и горе.<br/><br/>
+                  Принял всё - и страданье, и горе.<br/><br/>
 
                   <p className='main_song-couplet' >Припев: </p>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[9+start]}       {major[11+start]}     {minor[8+start]}            {minor[1+start]}<br/></p>
                   Никогда не смогу я забыть этот крест,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[6+start]}       {major[8+start]}           {minor[1+start]}<br/></p>
-                  Он стоит между небом, землею.<br/>
+                  Он стоит между небом, землёю.<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[9+start]}             {major[11+start]}         {minor[8+start]}           {minor[1+start]}<br/></p>
                   Своей смертью Христос примирил нас с Творцом,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[6+start]}        {major[8+start]}       {minor[1+start]}<br/></p>

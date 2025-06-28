@@ -70,7 +70,7 @@ export default function LybitJesusMenya({title, getNameSong}:ISong ) {
                   Друг, подойди к Христу, сердце открой, <br/>
                   Руку подай свою в руку Его, <br/>
                   Вечную радость в Нем ты обретешь <br/>
-                  И песню новую тогда запоешь. <br/><br/>
+                  И песню новую ты запоешь. <br/><br/>
         </main> 
      </div>
    );

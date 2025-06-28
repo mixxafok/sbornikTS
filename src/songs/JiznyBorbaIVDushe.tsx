@@ -61,7 +61,7 @@ export default function JiznyBorbaIVDushe({title, getNameSong}:ISong) {
 
         <p className='main_song-couplet' >Куплет 2: </p>
         Нелегко плыть против теченья,<br/>
-        Для других быть благословениьем.<br/>
+        Для других быть благословеньем.<br/>
         Этот путь Небо открывает!<br/>
         Мы идем за Христом!<br/><br/>
 

@@ -61,17 +61,17 @@ export default function VdoliPoViaDolorossa({title, getNameSong}:ISong ) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[8+start]}            {major[8+start]}7<br/></p>
                   По старадания пути,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >         {minor[1+start]}               {major[3+start]}                      {major[8+start]}7<br/></p>
-                  Шёл Мессия, словно Агнец нас спасти.<br/>
+                  Шёл Мессия, словно Агнец, нас спасти.<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >       {minor[1+start]}                {major[3+start]}                   {minor[8+start]}           {major[6+start]}     {major[4+start]}<br/></p>
                   Но Он выбрал ту дорогу, чтоб открыть нам небеса,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >      {minor[8+start]}                    {major[6+start]}           {major[4+start]}      {major[3+start]}  {minor[8+start]}<br/></p>
                   Шёл Христос по Долороса за тебя и за меня.<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 2: </p>                                                          
-                  Он молчал, Он был спокоен,<br/>                                     
+                  Он молчал и был спокоен,<br/>                                     
                   Хоть устал и изнемог,<br/>
                   Так молчать в смиреньи полном мог лишь Бог.<br/>
-                  Не клемил Он палачей,<br/>
+                  Не клеймил Он палачей,<br/>
                   Но с любовью смотрел Он на людей. <br/><br/>
 
                   <p className='main_song-couplet' >Припев <br/><br/></p>
@@ -88,7 +88,7 @@ export default function VdoliPoViaDolorossa({title, getNameSong}:ISong ) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >      {minor[1+start]}                  {major[3+start]}                   {minor[8+start]}          {major[3+start]}   {minor[8+start]}<br/></p>
                   Но Он выбрал ту дорогу, чтоб открыть нам небеса,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[8+start]}                           {major[6+start]}           {major[4+start]}     {major[3+start]}   {minor[8+start]}<br/></p>               
-                  Шёл Христос по Долороса за меня и за тебя.<br/><br/>
+                  Шёл Христос по Долороса за тебя и за меня.<br/><br/>
 </main> 
 
  

@@ -47,7 +47,7 @@ export default function VChristeOdnom({title, getNameSong}:ISong ) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[11+start]}                      {major[6+start]}              {major[11+start]}      {major[1+start]}       <br/></p>               
                   Он - Камень мой, скала и песнь – <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[6+start]}                   {major[11+start]}                     {major[1+start]}             {major[6+start]}<br/></p>
-                  надежный  спутник в страшный шторм<br/>
+                  Надежный спутник в страшный шторм<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[11+start]}   {minor[3+start]}       {major[1+start]} <br/></p>
                   Как высока любовь Его. <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[6+start]}                {major[11+start]}      {minor[3+start]}     {major[1+start]}<br/></p>
@@ -74,7 +74,7 @@ export default function VChristeOdnom({title, getNameSong}:ISong ) {
                   Из гроба мрачного воскрес<br/>
                   Он Бог и победитель всех <br/>
                   Уже не правит больше грех.<br/>
-                  Навеки Он хозяин мой<br/>
+                  Навеки Он Хозяин мой<br/>
                   Я куплен кровию святой<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 4: </p>
@@ -83,7 +83,7 @@ export default function VChristeOdnom({title, getNameSong}:ISong ) {
                   От первых дней, до седины <br/>
                   До смерти, в Нём моя судьба.<br/>
                   Нет никого и ничего <br/>
-                  Что вырвет из руки Его<br/>
+                  Что вырвет из руки Его.<br/>
                   Он приведёт меня в Свой дом <br/>
                   Моя опора только в Нём<br/><br/>
 </main> 

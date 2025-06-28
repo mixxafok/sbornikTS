@@ -67,7 +67,7 @@ export default function ZaLoveZaMilost( {title, getNameSong}:ISong) {
                   Сердце для Тебя звучит хвалой!<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 3: </p>
-                  За прекрасный дом в лазурным небе,<br/>
+                  За прекрасный дом в лазурном небе,<br/>
                   За святую вечность без конца<br/>
                   Пусть звучит сегодня гимн хваления,<br/>
                   Эту песнь поют наши сердца.<br/><br/>

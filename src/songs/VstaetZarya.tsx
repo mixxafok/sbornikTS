@@ -42,13 +42,13 @@ export default function VstaetZarya({title, getNameSong}:ISong) {
  <main className={isStyle === 'true' ? 'main_song songDark' : 'main_song'} style={{fontSize: `${JSON.parse(slide) }px`}}>
                   <p className='main_song-couplet'  >Куплет 1: </p>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[8+start]}        {major[6+start]}     <br/></p>
-                  Встает заря, и солнца луч на небо всходит<br/>
+                  Встает заря, и солнца луч на небе всходит<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}           {major[3+start]}7         {minor[8+start]}<br/></p>
                   Засияв в бескрайней синеве.<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[8+start]}       {major[6+start]}       <br/></p>               
                   За новый день хвалу Творцу поет природа,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}      {major[3+start]}7           {minor[8+start]}<br/></p>
-                  Мы воспрянем в радостной хвале.<br/><br/>
+                  И мы воспрянем в радостной хвале.<br/><br/>
 
                   <p className='main_song-couplet' >Припев: </p>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[8+start]}          {major[11+start]}<br/></p>
@@ -61,7 +61,7 @@ export default function VstaetZarya({title, getNameSong}:ISong) {
                   За дивную Его любовь!<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 2: </p>
-                  Как чудно все, что сотворил наш Бог великий.<br/>
+                  Как чудно всё, что сотворил наш Бог великий.<br/>
                   Да звучит и слава, и хвала.<br/>
                   Прекрасно все, что создано Христом-Владыкой,<br/>
                   Славьте Бога за дивные дела.<br/><br/>

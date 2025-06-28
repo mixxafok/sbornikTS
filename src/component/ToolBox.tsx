@@ -5,7 +5,6 @@ import VTebeGospod  from '../songs/VTebeGospod';
 import VChristeOdnom  from '../songs/VChristeOdnom';
 import VChasKogdaTryba from "../songs/VChasKogdaTryba";
 import DerjitOnMenya from "../songs/DerjitOnMenya";
-import DoveryatTebe from "../songs/DoveryatTebe";
 import DolgMoyYplatil from "../songs/DolgMoyYplatil";
 import EstiNaNebeGorod from "../songs/EstiNaNebeGorod";
 import ZaLoveZaMilost from "../songs/ZaLoveZaMilost";
@@ -13,27 +12,21 @@ import ZvezdDivnieAlmazi from "../songs/ZvezdDivnieAlmazi";
 import ZdeciNaZemle from "../songs/ZdeciNaZemle";
 import KakPrekrasno from "../songs/KakPrekrasno";
 import KakHorosho from "../songs/KakHorosho";
-import KtoJeYa from "../songs/KtoJeYa";
-import KtoMoraVse from "../songs/KtoMoraVse";
 import KydaBiYaIdtiHotel from "../songs/KydaBiYaIdtiHotel";
 import LybitJesusMenya from "../songs/LybitJesusMenya";
 import LybitEtoZnachit from "../songs/LybitEtoZnachit";
 import LoveChtoNePomnit from "../songs/LoveChtoNePomnit";
-import MilostiTvoey from "../songs/MilostiTvoey";
 import MoyaMolitva from "../songs/MoyaMolitva";
 import MiNygniDrygDrygy from "../songs/MiNygniDrygDrygy";
 import NaDalekomHolme from "../songs/NaDalekomHolme";
 import NadCerkovnimiKupolami from "../songs/NadCerkovnimiKupolami";
 import NaychiMenya from "../songs/NaychiMenya";
-import NeymryINoBydy from "../songs/NeymryINoBydy";
 import OdnaListva from "../songs/OdnaListva";
 import OtPogibeliSpasla from "../songs/OtPogibeliSpasla";
 import ProsipausNaZare from "../songs/ProsipausNaZare";
 import PustYgasloNebo from "../songs/PustYgasloNebo";
 import PytKGolgofe from "../songs/PytKGolgofe";
-import SvetomSvoim from "../songs/SvetomSvoim";
 import SkoroDayTotPridet from "../songs/SkoroDayTotPridet";
-import SkrouMenya from "../songs/SkrouMenya";
 import SonGodNamRojden from "../songs/SonGodNamRojden";
 import TamDaleko from "../songs/TamDaleko";
 import TiIskupilMir from "../songs/TiIskupilMir";
@@ -44,7 +37,6 @@ import UnostSvetlya from "../songs/UnostSvetlya";
 import KraiChydeshu from "../songs/KraiChydeshu";
 import HristianinNesiOgon from "../songs/HristianinNesiOgon";
 import SkolkoEstiZamanchivih from "../songs/SkolkoEstiZamanchivih";
-import TiPrishelVEtotMir from "../songs/TiPrishelVEtotMir";
 import VdoliPoViaDolorossa from "../songs/VdoliPoViaDolorossa";
 import NashaJizniThisGod from '../songs/NashaJizniThisGod';
 import NeperechestiNam from '../songs/NeperechestiNam';
@@ -72,7 +64,18 @@ import KogdaHristosMenyaProstil from '../songs/KogdaHristosMenyaProstil';
 import VmesteMiSVamiVerili from '../songs/VmesteMiSVamiVerili';
 import JiznyBorbaIVDushe from '../songs/JiznyBorbaIVDushe';
 import PokaOgoniLybviChydesnoi from '../songs/PokaOgoniLybviChydesnoi';
-
+import ChtoTakoeChristiansctvo from '../songs/ChtoTakoeChristiansctvo';
+import DayZaDay from '../songs/DayZaDay';
+import JiznLetitMoya from '../songs/JiznLetitMoya';
+import TiPrisheKakDojd from '../songs/TiPrisheKakDojd';
+import OYnostSvetlaia from '../songs/OYnostSvetlaia';
+import VremyaDanoNaVremya from '../songs/VremyaDanoNaVremya';
+import PodnimauGlaza from '../songs/PodnimauGlaza';
+import LoveChtoJeThisTakoe from '../songs/LoveChtoJeThisTakoe';
+import MiKajdiiDayVstrechaemsya from '../songs/MiKajdiiDayVstrechaemsya';
+import PoStranitsamBiblii from '../songs/PoStranitsamBiblii';
+import BibliaMnogoSveta from '../songs/PoStranitsamBiblii';
+import NetSiliGospodi from '../songs/NetSiliGospodi';
 
 interface ITool{
   name: string,
@@ -83,12 +86,12 @@ interface ITool{
 export function Toolbox({ name, titleSong, getNameSong }:ITool) {
   const components = {
     BlagoEsti: BlagoEsti,
+    BibliaMnogoSveta: BibliaMnogoSveta,
     BydyJitiPodZaschitou: BydyJitiPodZaschitou,
     ChakaemCyabeNashIsus: ChakaemCyabeNashIsus,
     DayYgas: DayYgas,
     DerjitOnMenya: DerjitOnMenya,
     DolgMoyYplatil: DolgMoyYplatil,
-    DoveryatTebe: DoveryatTebe,
     EstiNaNebeGorod: EstiNaNebeGorod,
     HristianinNesiOgon: HristianinNesiOgon,
     IshitePrejde: IshitePrejde,
@@ -97,15 +100,14 @@ export function Toolbox({ name, titleSong, getNameSong }:ITool) {
     KakPrekrasno: KakPrekrasno,
     KogdaHristosMenyaProstil: KogdaHristosMenyaProstil,
     KraiChydeshu: KraiChydeshu,
-    KtoJeYa: KtoJeYa,
-    KtoMoraVse: KtoMoraVse,
     KydaBiYaIdtiHotel: KydaBiYaIdtiHotel,
     LoveChtoNePomnit: LoveChtoNePomnit,
+    LoveChtoJeThisTakoe: LoveChtoJeThisTakoe,
     LybitEtoZnachit: LybitEtoZnachit,
     LybitJesusMenya: LybitJesusMenya,
     ManitSerdceMechtou: ManitSerdceMechtou,
-    MilostiTvoey: MilostiTvoey,
     MilostiyBoje: MilostiyBoje,
+    MiKajdiiDayVstrechaemsya: MiKajdiiDayVstrechaemsya,
     MiNygniDrygDrygy: MiNygniDrygDrygy,
     MoyaMolitva: MoyaMolitva,
     NaDalekomHolme: NaDalekomHolme,
@@ -114,13 +116,14 @@ export function Toolbox({ name, titleSong, getNameSong }:ITool) {
     NashaJizniThisPyti: NashaJizniThisPyti,
     NaychiMenya: NaychiMenya,
     NeperechestiNam: NeperechestiNam,
+    NetSiliGospodi: NetSiliGospodi,
     NebesniiDomOstavil: NebesniiDomOstavil,
-    NeymryINoBydy: NeymryINoBydy,
     OdnaListva: OdnaListva,
     OnShelVJary: OnShelVJary,
     OtPogibeliSpasla: OtPogibeliSpasla,
     PokaOgoniLybviChydesnoi: PokaOgoniLybviChydesnoi,
     PoklonicCkaruCkarei: PoklonicCkaruCkarei,
+    PoStranitsamBiblii: PoStranitsamBiblii,
     ProsipausNaZare: ProsipausNaZare,
     PustYgasloNebo: PustYgasloNebo,
     PytKGolgofe: PytKGolgofe,
@@ -128,16 +131,13 @@ export function Toolbox({ name, titleSong, getNameSong }:ITool) {
     SDetskihLet: SDetskihLet,
     SkolkoEstiZamanchivih: SkolkoEstiZamanchivih,
     SkoroDayTotPridet: SkoroDayTotPridet,
-    SkrouMenya: SkrouMenya,
     SonGodNamRojden: SonGodNamRojden,
-    SvetomSvoim: SvetomSvoim,
     TamDaleko: TamDaleko,
     TihayaNight: TihayaNight,
     TiIskupilMir: TiIskupilMir,
     TiKydaIdesh: TiKydaIdesh,
     TiMenyaNapolni: TiMenyaNapolni,
     TiNePechalsya: TiNePechalsya,
-    TiPrishelVEtotMir: TiPrishelVEtotMir,
     UnostSvetlya: UnostSvetlya,
     VelikiIChudni: VelikiIChudni,
     VmesteMiSVamiVerili: VmesteMiSVamiVerili,
@@ -154,7 +154,14 @@ export function Toolbox({ name, titleSong, getNameSong }:ITool) {
     ZdeciNaZemle: ZdeciNaZemle,
     ZemlyaZastilaVOjidanii: ZemlyaZastilaVOjidanii,
     ZKojnimDnemDarajei: ZKojnimDnemDarajei,
-    ZvezdDivnieAlmazi: ZvezdDivnieAlmazi
+    ZvezdDivnieAlmazi: ZvezdDivnieAlmazi,
+    ChtoTakoeChristiansctvo: ChtoTakoeChristiansctvo,
+    DayZaDay:DayZaDay,
+    JiznLetitMoya: JiznLetitMoya,
+    TiPrisheKakDojd:TiPrisheKakDojd,
+    OYnostSvetlaia: OYnostSvetlaia,
+    VremyaDanoNaVremya: VremyaDanoNaVremya,
+    PodnimauGlaza: PodnimauGlaza
   };
   const Tool = components[name as keyof typeof components ];
   return <Tool title={titleSong} getNameSong={getNameSong} />;

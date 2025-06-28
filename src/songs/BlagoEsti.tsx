@@ -40,22 +40,14 @@ export default function BlagoEsti({title, getNameSong}:ISong) {
 
         <main className={isStyle === 'true' ? 'main_song songDark' : 'main_song'} style={{fontSize: `${JSON.parse(slide) }px`}}>
           <p className='main_song-couplet'  >Куплет 1: </p>
-          <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >
-            {minor[8+start]}       {minor[1+start]} <br/>
-          </p>
+          <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[8+start]}       {minor[1+start]} <br/></p>
           Благо есть славить Господа,<br/>
-          <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>
-            {major[3+start]}7      {minor[8+start]}       {major[3+start]}7 <br/>
-          </p>
-          И петь имени Твоему, Всевышний<br/>
-          <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>
-            {minor[8+start]}       {minor[1+start]} <br/>
-          </p>               
+          <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>{major[3+start]}7      {minor[8+start]}       {major[3+start]}7 <br/></p>
+          И петь имени Твоему, Спаситель,<br/>
+          <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>{minor[8+start]}       {minor[1+start]} <br/></p>               
           Возвещать утром милость Твою <br/>
-          <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>
-            {major[3+start]}7        {minor[8+start]} <br/>
-          </p>
-          И истину Твою вночи<br/><br/>
+          <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>{major[3+start]}7        {minor[8+start]} <br/></p>
+          И истину Твою везде.<br/><br/>
 
           <p className='main_song-couplet' >Припев: </p>
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>
@@ -73,13 +65,13 @@ export default function BlagoEsti({title, getNameSong}:ISong) {
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>
             {minor[8+start]}       {major[8+start]}<br/>
           </p>
-          Ты мой Господь Ты мой Творец<br/><br/>
+          Ты - мой Творец, Ты - мой Творец.<br/><br/>
 
           <p className='main_song-couplet' >Куплет 2: </p>
           Возвожу мои очи к горам,<br/>
           Возношу мои руки к небу.<br/>
-          Я познал, что Господь Велик,<br/>
-          И на земле превише всех<br/><br/>
+          Я познал, что Господь есть Бог<br/>
+          И на земле, и в небесах.<br/><br/>
 
           <p className='main_song-couplet' >Куплет 3: </p>
           Господи - Ты защита моя, <br/>

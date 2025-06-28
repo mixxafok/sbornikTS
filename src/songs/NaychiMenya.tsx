@@ -47,7 +47,7 @@ export default function NaychiMenya({title, getNameSong}:ISong) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[8+start]}                 {minor[1+start]}<br/></p>
                   Чтобы мне по слову Твоему доказать,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[3+start]}7                  {minor[8+start]}<br/></p>
-                  Как Тебя я, Спаситель, люблю<br/><br/>
+                  Как Тебя я, Спаситель, люблю.<br/><br/>
 
                   <p className='main_song-couplet' >Припев: </p>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}              {major[6+start]}<br/></p>
@@ -68,8 +68,8 @@ export default function NaychiMenya({title, getNameSong}:ISong) {
                   <p className='main_song-couplet' >Куплет 3: </p>
                   Научи меня жизнь свою прожить,<br/>
                   Чтоб в конце услышать её:<br/>
-                  Добрый верный раб скорее войди,<br/>
-                  В радость Господина своего.<br/><br/>
+                  "Добрый верный раб скорее войди,<br/>
+                  В радость Господина своего."<br/><br/>
 
 </main> 
 

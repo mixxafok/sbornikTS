@@ -49,7 +49,7 @@ export default function NeperechestiNam({title, getNameSong}:ISong) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >          {major[2+start]}                      {major[4+start]}                     {major[9+start]}<br/></p>
                   Чтобы прославить нашего Отца.<br/><br/>
 
-                  <p className='main_song-couplet' >Припев: </p>
+                  <p className='main_song-couplet' >Припев 1: </p>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >                     {major[2+start]}                                 {major[4+start]}<br/></p>
                   Он любит нас в любое время года,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >                          {major[2+start]}                             {minor[1+start]}<br/></p>
@@ -71,7 +71,7 @@ export default function NeperechestiNam({title, getNameSong}:ISong) {
                   Пусть хор людей спасённых славит небо,<br/>
                   И пенье вознесется выше звёзд.<br/><br/>
 
-                  <p className='main_song-couplet' >Припев: </p>
+                  <p className='main_song-couplet' >Припев 2: </p>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}              {major[6+start]}<br/></p>
                   Сердца у всех стучат одним биением,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[11+start]}                   {minor[8+start]}<br/></p>

@@ -57,7 +57,7 @@ export default function KydaBiYaIdtiHotel({title, getNameSong}:ISong ) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[4+start]}   {minor[1+start]}<br/></p>
                   И сердца помышления <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[6+start]}   {major[6+start]}7<br/></p>
-                  Ты можешь все узреть. <br/><br/>
+                  Ты можешь всё узреть. <br/><br/>
 
                   <p className='main_song-couplet' >Куплет 2: </p>
                   И пред моим рождением,<br/>

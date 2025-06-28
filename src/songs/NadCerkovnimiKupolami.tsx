@@ -48,7 +48,7 @@ export default function NadCerkovnimiKupolami({title, getNameSong}:ISong ) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[4+start]}      <br/></p>               
                   Я иду, под моими ногами  <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[6+start]}                                {major[8+start]}<br/></p>
-                  Русь пролегла родимая.<br/><br/>
+                  Беларусь пролегла родимая.<br/><br/>
 
                   <p className='main_song-couplet' >Припев: </p>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}                             {minor[6+start]} <br/></p>
@@ -62,15 +62,15 @@ export default function NadCerkovnimiKupolami({title, getNameSong}:ISong ) {
 
                   <p className='main_song-couplet' >Куплет 2: </p>
                   В чистом небе поют херувимы,<br/>
-                  Сердце бьется от счастья и радости.<br/>
+                  Сердце бьётся от счастья и радости.<br/>
                   Для меня этот мир любимый:<br/>
                   Полон света, добра и благости.<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 3: </p>
                   На земле моя жизнь окончится,<br/>
                   Пролетит незаметно, как птица.<br/>
-                  И мне очень, очень хочется<br/>
-                  За Россию всегда молиться!<br/><br/>
+                  И мне очень и очень хочется<br/>
+                  Беларусь, за тебя молиться!<br/><br/>
 
 </main> 
 

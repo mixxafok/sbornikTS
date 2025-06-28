@@ -48,6 +48,7 @@ export default function NaDalekomHolme({title, getNameSong}:ISong ) {
           Миллионы людей у подножья креста  <br/>
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[9+start]}           {major[8+start]}<br/></p>
           Свое счастье нашли. Там однажды был я.<br/><br/>
+
           <p className='main_song-couplet' >Припев: </p>
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[6+start]}          {major[8+start]}           {minor[1+start]} <br/></p>
           Старый крест, старый крест, не броский, но лишь в нём<br/>
@@ -57,11 +58,13 @@ export default function NaDalekomHolme({title, getNameSong}:ISong ) {
           Исцелять разбитые, больные сердца,<br/>
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[6+start]}          {major[9+start]}           {major[8+start]}           {minor[1+start]}<br/></p>
           Каждому пришедшему открыть небеса.<br/><br/>
+
           <p className='main_song-couplet' >Куплет 2: </p>
           Между небом святым и греховной землёй <br/>
           Пропасть злая лежит, разделяя собой. <br/>
-          Хочешь - верь, хочешь - нет, слушай слово <br/>
-          Творца: Крест - единственный мост от земли в небеса.<br/><br/>
+          Хочешь - верь, хочешь - нет, слушай Слово Творца:<br/>
+          Крест - единственный мост от земли в небеса.<br/><br/>
+
           <p className='main_song-couplet' >Куплет 3: </p>
           О, Иисус дорогой, у подножья креста <br/>
           Сквозь седые века я увидел Тебя: <br/>

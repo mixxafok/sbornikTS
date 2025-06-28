@@ -72,9 +72,9 @@ export default function HristianinNesiOgon({title, getNameSong}:ISong  ) {
 
                   <p className='main_song-couplet' >Куплет 4: </p>
                   И если станет очень тяжело тебе,<br/>
-                  Суровый мир сдует огонь,<br/>
+                  Суровый мир гасит огонь,<br/>
                   Не унывай, ведь любящий Господь с тобой,<br/>
-                  Он сохранить светильник твой.<br/><br/>
+                  Он сохранит светильник твой.<br/><br/>
         </main> 
      </div>
    );

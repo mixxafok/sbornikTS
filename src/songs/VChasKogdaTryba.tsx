@@ -45,7 +45,7 @@ export default function VChasKogdaTryba({title, getNameSong}:ISong ) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[6+start]}<br/></p>
                   И настанет вечно светлая заря,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[11+start]}             {major[4+start]}             {major[11+start]}<br/></p>               
-                  Имена Он всех спасённых в перекличке повторит <br/>
+                  Имена Он всех спасённых в перекличке повторит. <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > {major[6+start]}                  {major[11+start]}         ({major[4+start]}  {major[11+start]})<br/></p>
                   Там, по милости Господней, буду я.<br/><br/>
 
@@ -55,9 +55,9 @@ export default function VChasKogdaTryba({title, getNameSong}:ISong ) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[6+start]}<br/></p>
                   На небесной перекличке,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[11+start]}                         {major[4+start]}<br/></p>
-                  На небесной перекличке там, по <br/>
+                  На небесной перекличке  <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[11+start]}                 {major[6+start]}                   {major[11+start]}<br/></p>
-                  Милости Господней, буду я.<br/><br/>
+                  Там, по милости Господней, буду я.<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 2: </p>
                   В день блаженный воскресенья всех умерших во Христе,<br/>

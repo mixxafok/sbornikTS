@@ -65,8 +65,8 @@ export default function PustYgasloNebo({title, getNameSong}:ISong ) {
 
                   <p className='main_song-couplet' >Куплет 3: </p>
                   Ты придёшь и навсегда yмолкнет грех. <br/>
-                  Там, где темнота была,Сияет свет,<br/>
-                  Bечный свет<br/><br/>
+                  Там, где темнота была, сияет свет,<br/>
+                  Bечный свет.<br/><br/>
 
 </main> 
 

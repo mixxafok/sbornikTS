@@ -46,9 +46,9 @@ export default function BydyJitiPodZaschitou({title, getNameSong}:ISong) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[6+start]}                               {major[3+start]}7       <br/></p>
                   Буду я в мире Божией любви, <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[8+start]}                       {minor[1+start]}       <br/></p>               
-                  Ночь настанет, и я не убоюсь,<br/>
+                  Ночь настанет, но я не убоюсь,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[3+start]}7                                               {minor[8+start]} <br/></p>
-                  Когда я под защитой Твоих крыл <br/><br/>
+                  Когда я под защитой Твоих крыл. <br/><br/>
 
                   <p className='main_song-couplet' >Припев: <br/></p>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}             {major[6+start]}       {major[11+start]}        {major[4+start]}<br/></p>
@@ -58,15 +58,21 @@ export default function BydyJitiPodZaschitou({title, getNameSong}:ISong) {
 
                   <p className='main_song-couplet' >Куплет 2: <br/></p>
                   Я спасен под защитой Твоих крыл, <br/>
-                  Мой покой под охраною Твоей<br/>
-                  Пусть летят стрелы, я не устрашусь,<br/>
-                  Когда я под защитой Твоих крыл <br/><br/>
+                  Мой покой под охраною Твоей.<br/>
+                  Пусть летят стрелы, я не убоюсь,<br/>
+                  Когда я под защитой Твоих крыл. <br/><br/>
 
                   <p className='main_song-couplet' >Куплет 3: <br/></p>
-                  Хочешь жить под защитой Его крыл<br/>
-                  Хочешь жить под охраною Его<br/>
-                  Встань скорее и к Господи иди<br/>
-                  Будешь Ты под защитой Его крыл<br/><br/>
+                  Хочешь жить под защитой Его крыл?<br/>
+                  Хочешь жить под охраною Его?<br/>
+                  Встань скорее и к Господи иди,<br/>
+                  Будешь Ты под защитой Его крыл.<br/><br/>
+
+                  <p className='main_song-couplet'>Припев 2: <br/></p>
+                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}             {major[6+start]}       {major[11+start]}        {major[4+start]}<br/></p>
+                  Под защитой, под защитой,<br/>
+                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}       {major[3+start]}7       {minor[8+start]}<br/></p>
+                  Под защитой Его крыл.<br/><br/>
 </main> 
      </div>
    );

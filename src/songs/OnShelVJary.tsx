@@ -42,9 +42,9 @@ export default function OnShelVJary({title, getNameSong}:ISong  ) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[6+start]}         {minor[11+start]}<br/></p>
                   Он шел в жару и в зной, В пыли больших дорог,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >                 {major[1+start]}     {minor[6+start]}<br/></p>
-                  Учил любить, прощать обиды, боли.<br/>
+                  Учил любить всех и прощать обиды.<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >                 {minor[6+start]}   {minor[11+start]} <br/></p>               
-                  Он с мытарями жил, Не знал ни в ком врага,<br/>
+                  Он с мытарями жил, не знал ни в ком врага,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >           {major[1+start]}             {minor[6+start]}<br/></p>
                   Склонялся к тем, кто был в слезах и горе.<br/><br/>
 
@@ -56,16 +56,16 @@ export default function OnShelVJary({title, getNameSong}:ISong  ) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >     {minor[6+start]}             {minor[11+start]}<br/></p>
                   Учитель, ведь не легко нести чужое бремя так, как Ты,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >   {major[1+start]}                      {minor[6+start]}               {minor[1+start]}<br/></p>
-                  Учитель я все смогу, но только будь всегда со мною Ты.<br/><br/>
+                  Учитель, я все смогу, но только будь всегда со мною Ты.<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 2: </p>
-                  Он принял грош вдовы И Магдалины плач.<br/>
+                  Он принял грош вдовы и Магдалины плач.<br/>
                   Он знал, что надо их любить, прощать.<br/>
                   И Никодиму путь во тьме Он указал,<br/>
                   И в Иордане принял Сам крещенье.<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 3: </p>
-                  И мы пойдем в жару, В пыли больших дорог,<br/>
+                  И мы пойдем в жару, в пыли больших дорог,<br/>
                   А Он научит нас любви, прощенью,<br/>
                   И мытаря принять, и зло врагов забыть,<br/>
                   И людям дать добро и утешенье.<br/><br/>

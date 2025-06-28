@@ -58,7 +58,7 @@ export default function TiIskupilMir({title, getNameSong}:ISong ) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[11+start]}     {major[6+start]}<br/></p>
                   Слава Тебе и величье, <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[8+start]}     {major[6+start]}<br/></p>
-                  слава в веках и народах,<br/>
+                  Слава в веках и народах,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[4+start]}     {major[11+start]}<br/></p>
                   Сила Твоя безгранична,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}     {major[6+start]}  ({major[11+start]})<br/></p>
@@ -93,6 +93,16 @@ export default function TiIskupilMir({title, getNameSong}:ISong ) {
                   И не стыжусь поднять глаза, <br/>
                   Иисус меня от смерти спас<br/>
                   И дал свободу<br/><br/>
+
+                  <p className='main_song-couplet' >Куплет 5*: </p>
+                  Своею смертью смерть попрал,<br/>
+                  И ад Тебя не удержал: <br/>
+                  Ты силой Божией воскрес,<br/>
+                  Воскрес в день третий. <br/>
+                  Превознесённый Царь царей,<br/>
+                  Ты стал Спасителем людей. <br/>
+                  Тебя мы славим в этот день<br/>
+                  За воскресенье<br/><br/>
 
 </main> 
 

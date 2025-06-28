@@ -60,8 +60,8 @@ export default function KogdaHristosMenyaProstil({title, getNameSong}:ISong) {
         Там небо, где Христос со мной!<br/><br/>
 
         <p className='main_song-couplet' >Куплет 2: </p>
-        Небесный мир мне был далек,<br/>
-        Меня Христос к Себе привлек,<br/>
+        Небесный мир мне был далёк,<br/>
+        Меня Христос к Себе привлёк,<br/>
         Когда вошёл Он в жизнь мою,<br/>
         С тех пор о Нём всегда пою.<br/><br/>
 

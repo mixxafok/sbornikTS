@@ -43,11 +43,11 @@ export default function MoyaMolitva({title, getNameSong}:ISong) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[8+start]}          {major[6+start]}    {major[4+start]} <br/></p>
                   Моя молитва да струится<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}          {minor[3+start]}    {minor[8+start]} <br/></p>
-                  К Тебе Госопдь, как фимиам<br/>
+                  К Тебе, Господь, как фимиам.<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[8+start]}          {major[6+start]}    {major[4+start]} <br/></p>               
                   Как сердце жаждет, как стремится<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}          {minor[3+start]}          {minor[8+start]} <br/></p>
-                  В священный Твой небесный храм<br/><br/>
+                  В чудесный Твой небесный храм<br/><br/>
 
                   <p className='main_song-couplet' >Припев: </p>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[11+start]}             {major[6+start]} <br/></p>
@@ -57,20 +57,20 @@ export default function MoyaMolitva({title, getNameSong}:ISong) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[4+start]}             {major[6+start]}<br/></p>
                       Ты их прости, Ты их спаси,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[3+start]}          {minor[8+start]} <br/></p>
-                      Милость Свою нам яви,<br/>
+                      Милость Свою нам яви.<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[11+start]}             {major[6+start]}  <br/></p>
-                      Боже, я знаю, Ты будешь с нами<br/>
+                      Боже, я знаю, Ты будешь с нами,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[8+start]}          {minor[3+start]}  <br/></p>
-                      В храме Своем под небесами<br/>
+                      В храме Своем под небесами,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[4+start]}             {major[6+start]} <br/></p>
                       Радость и мир Ты даровал,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[3+start]}          {minor[8+start]} <br/></p>
-                      Жизнь за людей отдал<br/>
+                      Жизнь за людей отдал,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[4+start]}     {minor[1+start]}          {major[3+start]}7    {minor[8+start]}<br/></p>
-                      И в Книгу Жизни нас записал<br/><br/>
+                      В Книгу Свою нас записал.<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 2: </p>
-                  Ты в Своем слове обещаешь<br/>
+                  Ты в Своем Слове обещаешь<br/>
                   Всем, кто Тебя ни призовет,<br/>
                   Что Ты услышишь в день печали,<br/>
                   С души греховной снимешь гнет.<br/><br/>
@@ -79,7 +79,7 @@ export default function MoyaMolitva({title, getNameSong}:ISong) {
                   Пошли, Господь, нам силу свыше,<br/>
                   Людей любить и звать к Тебе.<br/>
                   Когда мы молимся, услышь нас,<br/>
-                  и Помощь дай Свою с небес.<br/><br/>
+                  И помощь дай Свою с небес.<br/><br/>
         </main> 
      </div>
    );

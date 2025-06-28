@@ -41,7 +41,7 @@ export default function KraiChydeshu({title, getNameSong}:ISong ) {
  <main className={isStyle === 'true' ? 'main_song songDark' : 'main_song'} style={{fontSize: `${JSON.parse(slide) }px`}}>
                   <p className='main_song-couplet'  >Куплет 1: </p>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[4+start]}                                                    {major[9+start]}<br/></p>
-                  Край чудесный нас ждет там на небе,<br/>
+                  Край чудесный нас ждёт там на небе,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >                          {major[11+start]}              {major[4+start]}<br/></p>
                   Где окончится труд и печаль!<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{major[4+start]}                                                     {major[9+start]}<br/></p>
@@ -55,14 +55,14 @@ export default function KraiChydeshu({title, getNameSong}:ISong ) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >             {major[4+start]}<br/></p>
                   Край чудесный!<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >             {major[11+start]}                              {major[4+start]}<br/></p>
-                  Сердце радостно рвется к тебе.<br/>
+                  Сердце радостно рвётся к тебе.<br/>
                   Край чудесный! <br/>
                   Край чудесный!<br/>
                   Там ведь ждет нас Спаситель к Себе.<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 2: </p>
                   Край чудесный, где Ангелов пенье<br/>
-                  Раздается, как шум многих вод,<br/>
+                  Раздаётся, как шум многих вод,<br/>
                   Славу Агнцу возносят святые,<br/>
                   "Аллилуйя!" - они все поют.<br/><br/>
 

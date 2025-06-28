@@ -64,7 +64,7 @@ export default function ZemlyaZastilaVOjidanii({title, getNameSong}:ISong) {
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>{major[9+start]}     {major[2+start]}     {major[7+start]}<br/></p>
           Пусть не смолкает никогда<br/>
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>{major[9+start]}     {major[2+start]}     {major[11+start]}  {major[4+start]}<br/></p>
-          Хвала тому, Кто Жизнь отдавши,<br/>
+          Хвала Тому, Кто жизнь отдавши,<br/>
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>{major[9+start]}     {major[2+start]}     {major[7+start]}<br/></p>          
           Нас искупил от власти зла<br/><br/>
 
@@ -94,7 +94,7 @@ export default function ZemlyaZastilaVOjidanii({title, getNameSong}:ISong) {
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>{major[9+start]}     {major[2+start]}     {major[7+start]}<br/></p>
           Пусть не смолкает никогда<br/>
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>{major[9+start]}     {major[2+start]}     {major[11+start]}  {major[4+start]}<br/></p>
-          Хвала тому, Кто Жизнь отдавши,<br/>
+          Хвала Тому, Кто жизнь отдавши,<br/>
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>{major[9+start]}     {major[2+start]}     {major[7+start]}<br/></p>          
           Нас искупил от власти зла<br/><br/>
 
@@ -109,7 +109,7 @@ export default function ZemlyaZastilaVOjidanii({title, getNameSong}:ISong) {
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>{major[2+start]}          {major[7+start]}    <br/></p>
           Чтоб все воспрянули в хвале<br/>
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>{major[6+start]}   <br/></p>
-          Христов воскрес! Для всех надежда<br/>
+          Христос воскрес! Для всех надежда<br/>
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>{major[9+start]}      {major[2+start]}    {major[7+start]}    <br/></p>
           Даётся радостью в сердцах<br/>
           <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '}>{major[9+start]}    {major[2+start]}    {major[7+start]}   {major[4+start]}   <br/></p>

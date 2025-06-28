@@ -45,7 +45,7 @@ export default function PoklonicCkaruCkarei({title, getNameSong}:ISong) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >   {major[1+start]}    <br/></p>
                   Слушайте звуки и песни чудесные, <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > {minor[10+start]}             <br/></p>
-                  Слушайте ангелов хоры  небесные,<br/>
+                  Слушайте ангелов хоры небесные,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >   {major[6+start]}       <br/></p>
                   Слушайте сердцем  и пойте устами<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >       {major[8+start]}    <br/></p>
@@ -63,7 +63,7 @@ export default function PoklonicCkaruCkarei({title, getNameSong}:ISong) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >            {major[1+start]}                                         {minor[10+start]}<br/></p>
                   Поклонись Царю Царей, принеси дары Ему скорей<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >                    {major[6+start]}                    {minor[3+start]}                 {major[8+start]}<br/></p>
-                  Принеси любовь, терпение и прощение и доброту.<br/>
+                  Принеси любовь, терпение, и прощение, и доброту.<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >            {major[1+start]}                                          {minor[10+start]}<br/></p>
                   Поклонись Царю Царей и воспой хвалу Ему скорей,<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >                            {major[6+start]}                      {major[8+start]}           {major[1+start]}          {major[8+start]}<br/></p>
