@@ -394,4 +394,79 @@ export const ListSongs = [{
   title: 'Если ждёт тебя дорога',
   name: 'EsliJdetTebaDoroga'
 },
+{
+  id: 80,
+  title: 'Иисус в нашем сердце',
+  name: 'JesusVNashemSerce'
+},
+{
+  id: 80,
+  title: 'Жизнь моя сокрыта лишь в Тебе',
+  name: 'JizniMySokrita'
+},
+{
+  id: 81,
+  title: 'Давайте друг друга любить',
+  name: 'DavaiteDrygDrygaLove'
+},
+{
+  id: 82,
+  title: 'О, Господь в молитве пред Тобой',
+  name: 'OGospodVMolitve'
+},
+{
+  id: 83,
+  title: 'Велик наш Творец и наш Бог',
+  name: 'VelikNashTvorets'
+},
+{
+  id: 84,
+  title: 'Нам кажется, завтра мы будем прилежней',
+  name: 'NamKajetsaZavtra'
+},
+{
+  id: 85,
+  title: 'О, святая любовь',
+  name: 'OSvatayaLove'
+},
+{
+  id: 86,
+  title: 'Господи, Вселенную премудро Ты создал',
+  name: 'GospodiVselennyu'
+},
+{
+  id: 87,
+  title: 'Мы здесь на земле живём',
+  name: 'MiZdecNaZemle'
+},
+{
+  id: 88,
+  title: 'Шел Господь на Голгофу',
+  name: 'ShelGospodNaGolgofu'
+},
+{
+  id: 89,
+  title: 'Я не боюсь, когда иду',
+  name: 'YaNeBouciKogdaIdy'
+},
+{
+  id: 90,
+  title: 'Небеса - это Твой престол',
+  name: 'NebesaTvouPrestol'
+},
+{
+  id: 91,
+  title: 'Научи меня, Боже, молчать',
+  name: 'NaychiMenyBojeMolchat'
+},
+{
+  id: 92,
+  title: 'А ты не сей того, чего пожать не рад',
+  name: 'ATiNeSei'
+},
+{
+  id: 93,
+  title: 'Время летит очень быстро',
+  name: 'VremyaLetit'
+},
 ]

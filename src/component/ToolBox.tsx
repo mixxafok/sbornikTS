@@ -78,6 +78,21 @@ import BibliaMnogoSveta from '../songs/BibliaMnogoSveta';
 import NetSiliGospodi from '../songs/NetSiliGospodi';
 import IZaDayIZaNight from '../songs/IZaDayIZaNight';
 import EsliJdetTebaDoroga from '../songs/EsliJdetTebaDoroga';
+import JesusVNashemSerce from '../songs/JesusVNashemSerce';
+import JizniMySokrita from '../songs/JizniMySokrita';
+import DavaiteDrygDrygaLove from '../songs/DavaiteDrygDrygaLove';
+import OGospodVMolitve from '../songs/OGospodVMolitve';
+import VelikNashTvorets from '../songs/VelikNashTvorets';
+import NamKajetsaZavtra from '../songs/NamKajetsaZavtra';
+import OSvatayaLove from '../songs/OSvatayaLove';
+import GospodiVselennyu from '../songs/GospodiVselennyu';
+import MiZdecNaZemle from '../songs/MiZdecNaZemle';
+import ShelGospodNaGolgofu from '../songs/ShelGospodNaGolgofu';
+import YaNeBouciKogdaIdy from '../songs/YaNeBouciKogdaIdy';
+import NebesaTvouPrestol from '../songs/NebesaTvouPrestol';
+import NaychiMenyBojeMolchat from '../songs/NaychiMenyBojeMolchat';
+import ATiNeSei from '../songs/ATiNeSei';
+import VremyaLetit from '../songs/VremyaLetit';
 
 interface ITool{
   name: string,
@@ -165,8 +180,24 @@ export function Toolbox({ name, titleSong, getNameSong }:ITool) {
     VremyaDanoNaVremya: VremyaDanoNaVremya,
     PodnimauGlaza: PodnimauGlaza,
     IZaDayIZaNight: IZaDayIZaNight,
-    EsliJdetTebaDoroga: EsliJdetTebaDoroga
+    EsliJdetTebaDoroga: EsliJdetTebaDoroga,
+    JesusVNashemSerce: JesusVNashemSerce,
+    JizniMySokrita: JizniMySokrita,
+    DavaiteDrygDrygaLove: DavaiteDrygDrygaLove,
+    OGospodVMolitve: OGospodVMolitve,
+    VelikNashTvorets: VelikNashTvorets,
+    NamKajetsaZavtra: NamKajetsaZavtra,
+    OSvatayaLove: OSvatayaLove,
+    GospodiVselennyu: GospodiVselennyu,
+    MiZdecNaZemle: MiZdecNaZemle,
+    ShelGospodNaGolgofu:ShelGospodNaGolgofu,
+    YaNeBouciKogdaIdy:YaNeBouciKogdaIdy,
+    NebesaTvouPrestol:NebesaTvouPrestol,
+    NaychiMenyBojeMolchat:NaychiMenyBojeMolchat,
+    ATiNeSei:ATiNeSei,
+    VremyaLetit:VremyaLetit
   };
+
   const Tool = components[name as keyof typeof components ];
   return <Tool title={titleSong} getNameSong={getNameSong} />;
 }
