@@ -45,7 +45,7 @@ export default function EstiNaNebeGorod({title, getNameSong}:ISong ) {
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[9+start]}    {minor[11+start]}       {minor[4+start]} <br/></p>
                   Там нужды, болезни и печали нету.<br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}       {minor[6+start]}   {minor[11+start]}       {minor[4+start]} <br/></p>
-                  Там Живут святые, там играют гусли, <br/>
+                  Там живут святые, там играют гусли, <br/>
                   <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >{minor[1+start]}        {minor[8+start]} <br/></p>
                   Воспевая славу Господу Иисусу.<br/><br/>
 

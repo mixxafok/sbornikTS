@@ -67,8 +67,8 @@ export default function ManitSerdceMechtou({title, getNameSong}:ISong) {
                   Удаляет печали. <br/><br/>
 
                   <p className='main_song-couplet' >Куплет 3: </p>
-                  Он дарует прощенье,<br/>
-                  Мир и радость без меры<br/>
+                  Он дарует спасенье,<br/>
+                  И прощенье без меры,<br/>
                   И второе рожденье,<br/>
                   Только искренно веруй. <br/><br/>
         </main> 

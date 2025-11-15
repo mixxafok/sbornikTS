@@ -11,7 +11,7 @@ interface ISong{
 }
 
 
-export default function BibliaMnogoSveta({title, getNameSong}:ISong) {
+export default function PoStranitsamBiblii({title, getNameSong}:ISong) {
   const navigateTo = useNavigate()
   const isStyle = localStorage.getItem('SwitchValue')
   const slide:any = localStorage.getItem('SliderValues');
@@ -41,36 +41,32 @@ export default function BibliaMnogoSveta({title, getNameSong}:ISong) {
 
           <main className={isStyle === 'true' ? 'main_song songDark' : 'main_song'} style={{fontSize: `${JSON.parse(slide) }px`}}>
                   <p className='main_song-couplet'  >Куплет 1: </p>
-                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > {major[9+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  {major[2+start]} &emsp;&emsp;&emsp;{minor[1+start]} &emsp; {major[9+start]} <br/></p>
-                  Библия много света нам открыла<br/>
-                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > {major[2+start]}  &emsp;&emsp;&emsp;&emsp;&emsp; {major[9+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {major[4+start]}    <br/></p>
-                  И научила всех людей любить,<br/>
-                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > {major[9+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  {major[2+start]} &emsp;&emsp; {major[4+start]} &emsp;&emsp;&emsp; {major[9+start]} <br/></p>               
-                  Несколько тысяч лет она служила<br/>
-                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > {major[2+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {major[9+start]} &emsp;&emsp; {major[4+start]}  &emsp; {major[9+start]}  <br/></p>
-                  И до конца нам будет говорить.<br/><br/>
+                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > {major[9+start]} &emsp;&emsp;&emsp;&emsp;&emsp; {major[2+start]} &emsp;&emsp;&emsp;&emsp;&emsp; {major[9+start]} &emsp;&emsp;&emsp;&emsp; {major[4+start]} <br/></p>
+                  По страницам Библии старой я шагаю в город святой.<br/>
+                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > {major[9+start]} {major[2+start]} &emsp;&emsp;&emsp;&emsp; {major[11+start]} &emsp;&emsp;&emsp;&emsp; {major[11+start]}/{major[3+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {major[4+start]}   <br/></p>
+                  И хотя мои ноги устали, я по прежнему весел душой.<br/>
+                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > {minor[6+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  {minor[1+start]} &emsp;&emsp;&emsp; {major[2+start]} &emsp; {major[4+start]} &emsp;&emsp;&emsp;&emsp; {major[9+start]} <br/></p>               
+                  Hе смущают меня ураганы, даже сильные бури в пути.<br/>
+                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > {major[2+start]} &emsp;&emsp; {major[4+start]} &emsp;&emsp; {major[9+start]} &emsp;&emsp; {major[2+start]} &emsp; {minor[11+start]} &emsp;&emsp;&emsp; {major[4+start]} &emsp;&emsp; {major[9+start]} <br/></p>
+                  Отдохну и снова встану в город святой идти.<br/><br/>
 
                   <p className='main_song-couplet'  >Припев: </p>
-                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp; {major[9+start]}  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  {major[2+start]}   <br/></p>               
-                  Боже, даруй нам вникнуть в это Слово<br/>
-                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > {major[9+start]}  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  {minor[6+start]} &emsp; {major[11+start]}&emsp;&emsp; {major[4+start]} <br/></p>               
-                  И возвестить во все края земли:<br/>
-                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >  {major[9+start]}  &emsp;&emsp;&emsp;&emsp;&emsp;  {major[2+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {minor[4+start]} {major[9+start]} <br/></p>               
-                  Вот уж грядет пришествие Христово,<br/>
-                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > {major[2+start]}  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   {minor[9+start]} &emsp;  {major[4+start]} &emsp;&emsp; {major[9+start]}  <br/></p>
-                  Той Божьей вести весь народ внемли!<br/><br/>
+                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp; {major[9+start]}  &emsp;&emsp;  {major[4+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {minor[6+start]} {major[4+start]} &emsp;&emsp; {minor[1+start]} {major[2+start]}<br/></p>               
+                  Идти в слякоть и дождь, идти не уставать<br/>
+                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&emsp;&emsp; &emsp;{major[9+start]}  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   {minor[11+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  {major[4+start]}    <br/></p>
+                  Идти туда, где Господь, Он там меня будет ждать.<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 2: </p>
-                  Библия взоры к небу направляет<br/>
-                  И научает, как туда войти.<br/>
-                  Кто же ее надолго оставляет,<br/>
-                  Тот ослабеет на земном пути.<br/><br/>
+                  Искушения, испытания не заставят меня позабыть,<br/>
+                  День, когда я давал обещание Иисусу всегда верным быть.<br/>
+                  Я под знаминьем Божьим встану, Его посох меня укрепит.<br/>
+                  Я пойду и не устану, Бог мой мне говорит.<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 3: </p>
-                  О христиане, Библию читайте,<br/>
-                  Грех побеждайте, двигайтесь вперед!<br/>
-                  И своих близких к небу направляйте,<br/>
-                  Бог за труды награду вам пошлет.<br/><br/>
+                  И когда я Господа встречу, я пойму, это было не зря.<br/>
+                  Он мои мозоли излечит, примет нежно в объятья меня.<br/>
+                  Там не буду я больше томиться от невзгод и болезней земных.<br/>
+                  Там увижу родные лица дошедших друзей родных.<br/><br/>
 
         </main> 
      </div>

@@ -83,7 +83,7 @@ export default function PutiIstinaJizni({title, getNameSong}:ISong) {
 
           <p className='main_song-couplet'  >Куплет 4: </p>
           Кто креста не берёт, тот Меня не познал, <br/>
-          Кто себя бережёт, тот себе потерял, <br/>              
+          Кто себя бережёт, тот себя потерял, <br/>              
           Следуйте Мне. <br/><br/>
 
           <p className='main_song-couplet' >Припев 4: </p>
@@ -93,7 +93,7 @@ export default function PutiIstinaJizni({title, getNameSong}:ISong) {
           В путь, истину, жизнь. <br/><br/>
 
           <p className='main_song-couplet' >Куплет 5: </p>
-          В путь, истину, жизнь, Оно не от мира сего, <br/>
+          Моё Царство, Оно не от мира сего, <br/>
           Лишь от Духа и истины Царство Моё, <br/>              
           Царство Моё. <br/><br/>
 

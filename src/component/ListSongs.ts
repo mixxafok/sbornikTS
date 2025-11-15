@@ -156,8 +156,8 @@ export const ListSongs = [{
 },
 {
   id: 32,
-  title: 'Любовь, что не помнит неправды',
-  name: 'LoveChtoNePomnit'
+  title: 'Это мир моего Отца',
+  name: 'ThisMirMoegoOtsa'
 },
 {
   id: 33,
@@ -376,12 +376,22 @@ export const ListSongs = [{
 },
 {
   id: 76,
-  title: 'Бибия много света нам открыла',
+  title: 'Библия много света нам открыла',
   name: 'BibliaMnogoSveta'
 },
 {
-  id: 76,
+  id: 77,
   title: 'Нет силы, Господи',
   name: 'NetSiliGospodi'
+},
+{
+  id: 78,
+  title: 'И за день и за ночь',
+  name: 'IZaDayIZaNight'
+},
+{
+  id: 79,
+  title: 'Если ждёт тебя дорога',
+  name: 'EsliJdetTebaDoroga'
 },
 ]

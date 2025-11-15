@@ -41,23 +41,23 @@ export default function NetSiliGospodi({title, getNameSong}:ISong) {
 
           <main className={isStyle === 'true' ? 'main_song songDark' : 'main_song'} style={{fontSize: `${JSON.parse(slide) }px`}}>
                   <p className='main_song-couplet'  >Куплет 1: </p>
-                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&emsp;&emsp;&emsp;&emsp;{major[4+start]} &emsp;&emsp;  {major[6+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;{major[11+start]} &emsp;&emsp;&emsp; {minor[8+start]} <br/></p>
+                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > {major[4+start]}  {major[6+start]} {major[11+start]}  {minor[8+start]} <br/></p>
                   Нет силы, Господи, не могу я так больше жить<br/>
-                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {major[4+start]} &emsp;&emsp;&emsp; {major[6+start]} &emsp;&emsp;&emsp;&emsp;&emsp; {major[11+start]}   <br/></p>
+                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > {major[4+start]} {major[6+start]}  {major[11+start]}   <br/></p>
                   Когда враг на пути моём всё время стоит.<br/>
-                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&emsp;&emsp;&emsp;&emsp;{major[4+start]} &emsp;&emsp;  {major[6+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;{major[11+start]} &emsp;&emsp;&emsp; {minor[8+start]} <br/></p>
+                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > {major[4+start]} {major[6+start]} {major[11+start]}  {minor[8+start]} <br/></p>
                   Я взываю к Тебе: помоги мне в земной борьбе<br/>
-                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {major[4+start]} &emsp;&emsp;&emsp; {major[6+start]} &emsp;&emsp;&emsp;&emsp;&emsp; {major[11+start]} <br/></p>
+                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > {major[4+start]} {major[6+start]}  {major[11+start]} <br/></p>
                   Устоять на пути Твоём и служить Тебе.<br/><br/>
 
                   <p className='main_song-couplet'  >Припев: </p>
-                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&emsp;&emsp;  {minor[1+start]} &emsp;&emsp;&emsp;&emsp; {major[6+start]} &emsp;&emsp;&emsp;&emsp; {major[11+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {minor[8+start]} <br/></p>               
+                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >  {minor[1+start]} {major[6+start]}  {major[11+start]}  {minor[8+start]} <br/></p>               
                   Я верю: Ты - моя скала, Ты сохранишь меня от зла<br/>
-                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&emsp;&emsp; {minor[1+start]} &emsp;&emsp;&emsp;&emsp; {major[6+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {major[11+start]} <br/></p>               
+                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >  {minor[1+start]}  {major[6+start]}  {major[11+start]} <br/></p>               
                   И когда будет тяжело поможешь Ты.<br/>
-                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&emsp;&emsp;  {minor[1+start]} &emsp;&emsp;&emsp;&emsp; {major[6+start]} &emsp;&emsp;&emsp;&emsp; {major[11+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {minor[8+start]} <br/></p>               
+                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >  {minor[1+start]}  {major[6+start]}  {major[11+start]} {minor[8+start]} <br/></p>               
                   С Тобой не страшно мне в пути, с Тобой пойду на край Земли<br/>
-                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&emsp;&emsp; {minor[1+start]} &emsp;&emsp;&emsp;&emsp; {major[6+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {major[11+start]} <br/></p>               
+                  <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} >  {minor[1+start]}  {major[6+start]}  {major[11+start]} <br/></p>               
                   С Тобою обрету покой в земном пути.<br/><br/>
 
                   <p className='main_song-couplet' >Куплет 2: </p>

@@ -59,7 +59,7 @@ export default function YaKoleniSklonu({title, getNameSong}:ISong) {
                   <p className='main_song-couplet' >Куплет 3: </p>
                   Я колени склоню и увижу так ясно<br/>
                   Заблужденья свои и ошибки в пути,<br/>
-                  И пойму, что Христос был мне светом в ненастье,<br/>
+                  И пойму, что Христос был мне Другом в ненастье,<br/>
                   Нес меня на руках и без гнева простил. <br/><br/>
 
                   <p className='main_song-couplet' >Куплет 4: </p>

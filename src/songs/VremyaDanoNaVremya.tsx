@@ -41,9 +41,9 @@ export default function VremyaDanoNaVremya({title, getNameSong}:ISong) {
  
       <main className={isStyle === 'true' ? 'main_song songDark' : 'main_song'} style={{fontSize: `${JSON.parse(slide) }px`}}>
         <p className='main_song-couplet'  >Куплет 1: </p>
-        <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&emsp;&emsp;&emsp;&emsp; {minor[9+start]} &emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp; {minor[2+start]}<br/></p>
+        <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&emsp;&emsp;&emsp;&emsp; {minor[9+start]} &emsp;&emsp;&emsp;&ensp;&emsp; {minor[2+start]}<br/></p>
         День за днём незаметно для нас,<br/>
-        <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&emsp;&emsp;&emsp; {major[4+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {minor[9+start]} <br/></p>
+        <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&emsp;&emsp;&emsp; {major[4+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {minor[9+start]} <br/></p>
         Мы всё ближе к назначенной цели.<br/>
         <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&emsp;&ensp; {minor[9+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&ensp; {minor[2+start]} <br/></p>
         Увлекаясь мечтою подчас,<br/>
@@ -53,7 +53,7 @@ export default function VremyaDanoNaVremya({title, getNameSong}:ISong) {
         <p className='main_song-couplet' >Припев: </p>
         <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&ensp; {minor[2+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {major[7+start]} <br/></p>
         Научи дорожить, Господь,<br/>
-        <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&emsp;&emsp;&emsp; {major[12+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; {major[5+start]} <br/></p>
+        <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&emsp;&emsp;&emsp; {major[12+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {major[5+start]} <br/></p>
         Тем богатстсвом что здесь владеем,<br/>
         <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&emsp; {minor[2+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {major[4+start]} <br/></p>
         Дорожить каждым новым днём,<br/>

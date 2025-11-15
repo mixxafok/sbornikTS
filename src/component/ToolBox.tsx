@@ -15,7 +15,7 @@ import KakHorosho from "../songs/KakHorosho";
 import KydaBiYaIdtiHotel from "../songs/KydaBiYaIdtiHotel";
 import LybitJesusMenya from "../songs/LybitJesusMenya";
 import LybitEtoZnachit from "../songs/LybitEtoZnachit";
-import LoveChtoNePomnit from "../songs/LoveChtoNePomnit";
+import ThisMirMoegoOtsa from "../songs/ThisMirMoegoOtsa";
 import MoyaMolitva from "../songs/MoyaMolitva";
 import MiNygniDrygDrygy from "../songs/MiNygniDrygDrygy";
 import NaDalekomHolme from "../songs/NaDalekomHolme";
@@ -74,8 +74,10 @@ import PodnimauGlaza from '../songs/PodnimauGlaza';
 import LoveChtoJeThisTakoe from '../songs/LoveChtoJeThisTakoe';
 import MiKajdiiDayVstrechaemsya from '../songs/MiKajdiiDayVstrechaemsya';
 import PoStranitsamBiblii from '../songs/PoStranitsamBiblii';
-import BibliaMnogoSveta from '../songs/PoStranitsamBiblii';
+import BibliaMnogoSveta from '../songs/BibliaMnogoSveta';
 import NetSiliGospodi from '../songs/NetSiliGospodi';
+import IZaDayIZaNight from '../songs/IZaDayIZaNight';
+import EsliJdetTebaDoroga from '../songs/EsliJdetTebaDoroga';
 
 interface ITool{
   name: string,
@@ -101,7 +103,7 @@ export function Toolbox({ name, titleSong, getNameSong }:ITool) {
     KogdaHristosMenyaProstil: KogdaHristosMenyaProstil,
     KraiChydeshu: KraiChydeshu,
     KydaBiYaIdtiHotel: KydaBiYaIdtiHotel,
-    LoveChtoNePomnit: LoveChtoNePomnit,
+    ThisMirMoegoOtsa: ThisMirMoegoOtsa,
     LoveChtoJeThisTakoe: LoveChtoJeThisTakoe,
     LybitEtoZnachit: LybitEtoZnachit,
     LybitJesusMenya: LybitJesusMenya,
@@ -161,7 +163,9 @@ export function Toolbox({ name, titleSong, getNameSong }:ITool) {
     TiPrisheKakDojd:TiPrisheKakDojd,
     OYnostSvetlaia: OYnostSvetlaia,
     VremyaDanoNaVremya: VremyaDanoNaVremya,
-    PodnimauGlaza: PodnimauGlaza
+    PodnimauGlaza: PodnimauGlaza,
+    IZaDayIZaNight: IZaDayIZaNight,
+    EsliJdetTebaDoroga: EsliJdetTebaDoroga
   };
   const Tool = components[name as keyof typeof components ];
   return <Tool title={titleSong} getNameSong={getNameSong} />;

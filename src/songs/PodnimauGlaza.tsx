@@ -54,7 +54,7 @@ export default function PodnimauGlaza({title, getNameSong}:ISong) {
         <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {minor[9+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {major[2+start]} <br/></p>
         Небо, небо-небес - город вечных чудес,<br/>
         <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&emsp;&emsp;&emsp;&emsp; {major[7+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {minor[4+start]} <br/></p>
-        Я мечтаю о нём, там мечаю и здесь.<br/>
+        Я мечтаю о нём, там мечтаю и здесь.<br/>
         <p id={viewAccordes ? '' : 'none'} className={isStyle === 'true' ? 'main-song-accord accDark' : 'main-song-accord '} > &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {minor[9+start]} {major[11+start]} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {minor[4+start]}<br/></p>
         Небо, небо-небес, путь туда через крест.<br/><br/>
 
